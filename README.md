@@ -1,16 +1,21 @@
-# Formulário Completo
+# Formulário Completo Modificado
 
-Este projeto é um site interativo para inspeções, com funcionalidades:
-- Renderização dinâmica do formulário a partir de JSON.
-- Exportação para **JSON**, **PDF** e **Word**.
-- Gráfico de progresso com Chart.js.
+Alterações:
+- Botões de exportação (JSON, PDF, Word) aparecem apenas no final do formulário.
+- Exportação para Word inclui todas as secções e fotos.
+- Inputs permitem captura de fotos (accept="image/*" capture="camera").
+
+## Como testar localmente
+1. Descompacte o ZIP.
+2. No Terminal:
+   ```bash
+   cd ~/Transferências/site_github_pages_modificado
+   python3 -m http.server 8000
+   ```
+3. Abra http://localhost:8000
 
 ## Publicar no GitHub Pages
-1. Crie um repositório público no GitHub.
-2. Faça upload destes ficheiros:
-   - index.html
-   - style.css
-   - script.js
-   - formulario_completo.json
-3. Vá em **Settings → Pages**, selecione a branch `main` e a pasta `/root`.
-4. Acesse seu site em: `https://<usuario>.github.io/<repositorio>/`
+1. Crie repositório público.
+2. Faça upload dos ficheiros.
+3. Em Settings → Pages, selecione branch `main` e pasta `/root`.
+4. Acesse: https://<usuario>.github.io/<repositorio>/
