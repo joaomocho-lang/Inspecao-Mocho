@@ -9,10 +9,15 @@ Este projeto inclui:
 1. Descompacte o ZIP.
 2. No Terminal:
    ```bash
-   cd ~/Transferências/site_final_v2
+   cd ~/Transferências/site_final_v3
    python3 -m http.server 8000
    ```
 3. Abra http://localhost:8000
+
+### Testar no telemóvel
+- Descubra o IP do seu Mac com `ifconfig`.
+- Inicie o servidor: `python3 -m http.server 8000`.
+- No telemóvel, aceda a: `http://<IP-do-Mac>:8000`.
 
 ## Publicar no GitHub Pages
 1. Crie repositório público.
@@ -24,3 +29,4 @@ Este projeto inclui:
 - Botões de exportação aparecem sempre no final.
 - Função exportarWord inclui todas as respostas e fotos.
 - Inputs permitem captura de fotos.
+- Instruções para teste no telemóvel via IP.

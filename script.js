@@ -40,7 +40,6 @@ function renderForm(filtroSecao='', pesquisa=''){
   c.innerHTML='';
   perguntas.forEach(secao=>{
     if(filtroSecao && secao.secao!==filtroSecao)return;
-    // Renderiza perguntas
     secao.perguntas.forEach(p=>{
       const div=document.createElement('div');
       div.className='section';
