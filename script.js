@@ -22,26 +22,49 @@ function exportarJSON(){
   a.click();
 }
 
-async function exportarWord(){
-  const { Document, Packer, Paragraph, TextRun } = docx;
-  const doc = new Document();
-  const elementos = [];
+function exportarPDF(){
+  const { jsPDF } = window.jspdf;
+  const doc=new jsPDF();
+  let y=10;
 
-  document.querySelectorAll('select').forEach(s => {
-    elementos.push(new Paragraph({
-      children:[
-        new TextRun({text:`${s.dataset.pergunta}: `,bold:true}),
-        new TextRun(s.value||'Não preenchido')
-      ]
-    }));
+  document.querySelectorAll('select').forEach(s=>{
+    doc.text(`${s.dataset.pergunta}: ${s.value||'Não preenchido'}`,10,y);
+    y+=10;
+    if(y>270){doc.addPage();y=10;}
   });
 
-  document.querySelectorAll('input[type="file"]').forEach(f => {
+  const inputs=document.querySelectorAll('input[type="file"]');
+  let processadas=0;
+  inputs.forEach(f=>{
+    if(f.files[0]){
+      const reader=new FileReader();
+      reader.onload=function(e){
+        doc.addImage(e.target.result,'JPEG',10,y,50,50);
+        y+=60;
+        if(y>270){doc.addPage();y=10;}
+        processadas++;
+        if(processadas===inputs.length){doc.save('inspecao.pdf');}
+      };
+      reader.readAsDataURL(f.files[0]);
+    }else{
+      processadas++;
+      if(processadas===inputs.length){doc.save('inspecao.pdf');}
+    }
+  });
+}
+
+async function exportarWord(){
+  const { Document,Packer,Paragraph,TextRun }=docx;
+  const doc=new Document();
+  const elementos=[];
+  document.querySelectorAll('select').forEach(s=>{
+    elementos.push(new Paragraph({children:[new TextRun({text:`${s.dataset.pergunta}: `,bold:true}),new TextRun(s.value||'Não preenchido')]}));
+  });
+  document.querySelectorAll('input[type="file"]').forEach(f=>{
     if(f.files[0]){
       elementos.push(new Paragraph(`Foto anexada: ${f.files[0].name}`));
     }
   });
-
   doc.addSection({children:elementos});
   const blob=await Packer.toBlob(doc);
   const url=URL.createObjectURL(blob);
