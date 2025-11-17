@@ -1,6 +1,7 @@
 
 let perguntas = [];
 
+// Carregar perguntas do JSON
 fetch('formulario_completo.json')
   .then(r => r.json())
   .then(data => {
@@ -48,31 +49,50 @@ function renderForm(filtroSecao='', pesquisa=''){
   mostrarExportacoes();
 }
 
-
+// Mostrar botões sempre no final
 function mostrarExportacoes(){
   document.getElementById('exportButtons').style.display='block';
 }
 
-async function exportarWord(){
-  const { Document, Packer, Paragraph, TextRun } = docx;
-  const doc = new Document();
-  const elementos = [];
-
-  document.querySelectorAll('select').forEach(s => {
-    elementos.push(new Paragraph({
-      children:[
-        new TextRun({text:`${s.dataset.pergunta}: `,bold:true}),
-        new TextRun(s.value||'Não preenchido')
-      ]
-    }));
+// Exportar JSON
+function exportarJSON(){
+  const respostas={};
+  document.querySelectorAll('select').forEach(s=>{
+    respostas[s.dataset.pergunta]=s.value||'';
   });
+  const blob=new Blob([JSON.stringify(respostas,null,2)],{type:'application/json'});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a');
+  a.href=url;
+  a.download='inspecao.json';
+  a.click();
+}
 
-  document.querySelectorAll('input[type="file"]').forEach(f => {
+// Exportar PDF
+function exportarPDF(){
+  const { jsPDF } = window.jspdf;
+  const doc=new jsPDF();
+  let y=10;
+  document.querySelectorAll('select').forEach(s=>{
+    doc.text(`${s.dataset.pergunta}: ${s.value||'Não preenchido'}`,10,y);
+    y+=10;
+  });
+  doc.save('inspecao.pdf');
+}
+
+// Exportar Word
+async function exportarWord(){
+  const { Document,Packer,Paragraph,TextRun }=docx;
+  const doc=new Document();
+  const elementos=[];
+  document.querySelectorAll('select').forEach(s=>{
+    elementos.push(new Paragraph({children:[new TextRun({text:`${s.dataset.pergunta}: `,bold:true}),new TextRun(s.value||'Não preenchido')]}));
+  });
+  document.querySelectorAll('input[type="file"]').forEach(f=>{
     if(f.files[0]){
       elementos.push(new Paragraph(`Foto anexada: ${f.files[0].name}`));
     }
   });
-
   doc.addSection({children:elementos});
   const blob=await Packer.toBlob(doc);
   const url=URL.createObjectURL(blob);
@@ -80,4 +100,12 @@ async function exportarWord(){
   a.href=url;
   a.download='inspecao.docx';
   a.click();
+}
+
+// Atualizar gráfico
+function atualizarGrafico(){
+  const total=document.querySelectorAll('select').length;
+  const preenchidos=[...document.querySelectorAll('select')].filter(s=>s.value).length;
+  const ctx=document.getElementById('progressChart');
+  new Chart(ctx,{type:'doughnut',data:{labels:['Preenchidos','Pendentes'],datasets:[{data:[preenchidos,total-preenchidos],backgroundColor:['#0078D4','#ccc']}]} });
 }
