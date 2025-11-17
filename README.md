@@ -1,22 +1,19 @@
-# Formulário Completo Final com PDF Corrigido
+# Publicação no GitHub Pages
 
-Alterações:
-- Botões de exportação (JSON, PDF, Word) aparecem apenas no final do formulário.
-- Exportação para JSON e Word inclui todas as secções e fotos.
-- Exportação para PDF agora suporta múltiplas páginas e inclui imagens.
-- Inputs permitem captura de fotos (accept="image/*" capture="camera").
+## Passos:
+1. Extraia todos os ficheiros do ZIP.
+2. Crie um repositório público no GitHub.
+3. Faça upload dos ficheiros:
+   - pagina_inicial.html
+   - formulario.html
+   - script.js
+   - style.css
+   - formulario_completo.json
+   - imagens (logotipo)
+4. Vá a **Settings → Pages**, escolha branch `main` e pasta `/root`.
+5. Aceda ao link gerado.
 
-## Como testar localmente
-1. Descompacte o ZIP.
-2. No Terminal:
-   ```bash
-   cd ~/Transferências/site_github_pages_pdf_final
-   python3 -m http.server 8000
-   ```
-3. Abra http://localhost:8000
-
-## Publicar no GitHub Pages
-1. Crie repositório público.
-2. Faça upload dos ficheiros.
-3. Em Settings → Pages, selecione branch `main` e pasta `/root`.
-4. Acesse: https://<usuario>.github.io/<repositorio>/
+## Fluxo do site:
+- Abra `pagina_inicial.html` → preencha os dados → clique em **Iniciar Inspeção**.
+- Complete o formulário em `formulario.html`.
+- Use os botões para exportar PDF, Word ou JSON.

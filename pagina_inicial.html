@@ -1,1 +1,53 @@
-<!DOCTYPE html><html lang='pt'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1.0'><title>Dados Iniciais</title><link rel='stylesheet' href='style.css'></head><body><h1>Relatório de Inspeção</h1><form id='dadosIniciais'><label>Nome do Cliente:<input type='text' name='nomeCliente'></label><label>Contacto:<input type='text' name='contacto'></label><label>NIF:<input type='text' name='nif'></label><button type='button' onclick='iniciarInspecao()'>Iniciar Inspeção</button></form><script>function iniciarInspecao(){const dados={};document.querySelectorAll('#dadosIniciais input').forEach(el=>{dados[el.name]=el.value;});localStorage.setItem('dadosCabecalho',JSON.stringify(dados));window.location.href='formulario.html';}</script></body></html>
+<!DOCTYPE html>
+<html lang='pt'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>Relatório de Inspeção - Dados Iniciais</title>
+<link rel='stylesheet' href='style.css'>
+</head>
+<body>
+<h1>Relatório de Inspeção de Propriedade</h1>
+<form id='dadosIniciais'>
+<section class='section'>
+<h2>Informações do Cliente</h2>
+<label>Nome do Cliente:<input type='text' name='nomeCliente'></label>
+<label>Contacto:<input type='text' name='contacto'></label>
+<label>NIF:<input type='text' name='nif'></label>
+</section>
+<section class='section'>
+<h2>Informações da Propriedade</h2>
+<label>Morada Completa:<input type='text' name='morada'></label>
+<label>Código Postal:<input type='text' name='codigoPostal'></label>
+<label>Freguesia/Concelho:<input type='text' name='freguesia'></label>
+<label>Tipo de Propriedade:<input type='text' name='tipoPropriedade'></label>
+<label>Área Total (m²):<input type='text' name='area'></label>
+</section>
+<section class='section'>
+<h2>Tipo de Inspeção</h2>
+<label>Finalidade:<select name='finalidade'><option>Compra</option><option>Venda</option><option>Manutenção Anual</option><option>Outro</option></select></label>
+<label>Data da Inspeção:<input type='date' name='data'></label>
+<label>Hora de Início:<input type='time' name='horaInicio'></label>
+<label>Hora de Fim:<input type='time' name='horaFim'></label>
+<label>Condições Meteorológicas:<input type='text' name='condicoes'></label>
+</section>
+<section class='section'>
+<h2>Informações do Inspetor</h2>
+<label>Nome do Inspetor:<input type='text' name='nomeInspetor'></label>
+<label>Certificação/Licença:<input type='text' name='certificacao'></label>
+<label>Contacto:<input type='text' name='contactoInspetor'></label>
+<label>Email:<input type='email' name='email'></label>
+<label>Anos de Experiência:<input type='number' name='experiencia'></label>
+<label>Associação Profissional:<input type='text' name='associacao'></label>
+</section>
+<section class='section'>
+<h2>Assinatura e Declaração</h2>
+<label>Assinatura do Inspetor:<input type='text' name='assinatura'></label>
+</section>
+<button type='button' onclick='iniciarInspecao()'>Iniciar Inspeção</button>
+</form>
+<script>
+function iniciarInspecao(){const dados={};document.querySelectorAll('#dadosIniciais input,#dadosIniciais select').forEach(el=>{dados[el.name]=el.value;});localStorage.setItem('dadosCabecalho',JSON.stringify(dados));window.location.href='formulario.html';}
+</script>
+</body>
+</html>
