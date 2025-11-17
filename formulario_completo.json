@@ -1,0 +1,7732 @@
+[
+  {
+    "secao": "1. Informações",
+    "campos": [
+      {
+        "pergunta": "Qual é o seu interesse principal na propriedade?",
+        "opcoes": [
+          "Compra",
+          "Venda",
+          "Manutenção Anual",
+          "Outro"
+        ]
+      },
+      {
+        "pergunta": "Quais são as suas maiores preocupações (problemas prévios, área específica)?",
+        "opcoes": [
+          "Estrutura",
+          "Humidade",
+          "Infiltrações",
+          "Sistemas Elétricos",
+          "Canalização",
+          "Idade do Telhado",
+          "Nenhum"
+        ]
+      },
+      {
+        "pergunta": "Qual é a sua certificação ou afiliação profissional?",
+        "opcoes": [
+          "Certificado [Nome da Associação]",
+          "Licença [Nº]",
+          "Não Aplicável (experiência)"
+        ]
+      },
+      {
+        "pergunta": "Há quanto tempo realiza inspeções?",
+        "opcoes": [
+          "Menos de 1 ano",
+          "1-5 anos",
+          "5-10 anos",
+          "Mais de 10 anos"
+        ]
+      },
+      {
+        "pergunta": "O que está incluído no âmbito desta inspeção (e o que não está)?",
+        "opcoes": [
+          "Tudo (Exterior, Interior, Sistemas)",
+          "Exclui Sótão",
+          "Exclui Avaliação de Pragas",
+          "Apenas Visual"
+        ]
+      },
+      {
+        "pergunta": "Qual o endereço completo da propriedade em inspeção?",
+        "opcoes": [
+          "[Rua",
+          "Nº]"
+        ]
+      },
+      {
+        "pergunta": "Todas as áreas de inspeção estão acessíveis (sótão, painel elétrico, etc.)?",
+        "opcoes": [
+          "Sim, tudo acessível",
+          "Não, [Área] trancada",
+          "Não, [Área] obstruída"
+        ]
+      },
+      {
+        "pergunta": "Qual o clima no dia e hora da inspeção?",
+        "opcoes": [
+          "Sol",
+          "Chuva Leve",
+          "Chuva Forte",
+          "Neve",
+          "Nublado"
+        ]
+      },
+      {
+        "pergunta": "Houve chuva forte nas últimas 48 horas?",
+        "opcoes": [
+          "Sim, muita",
+          "Sim, moderada",
+          "Não",
+          "Não sei"
+        ]
+      },
+      {
+        "pergunta": "Tipo de propriedade?",
+        "opcoes": [
+          "Moradia",
+          "Apartamento",
+          "Prédio",
+          "Comercial",
+          "Mista"
+        ]
+      },
+      {
+        "pergunta": "Idade aproximada da propriedade?",
+        "opcoes": [
+          "<5 anos",
+          "5-10 anos",
+          "10-20 anos",
+          "20-30 anos",
+          ">30 anos",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Número de pisos?",
+        "opcoes": [
+          "1",
+          "2",
+          "3",
+          "4+",
+          "Cave",
+          "Sótão"
+        ]
+      },
+      {
+        "pergunta": "Área total (m²)?",
+        "opcoes": [
+          "[Valor numérico]"
+        ]
+      },
+      {
+        "pergunta": "A propriedade está atualmente ocupada?",
+        "opcoes": [
+          "Sim, com proprietário",
+          "Sim, com inquilino",
+          "Não, vazia",
+          "Parcialmente ocupada"
+        ]
+      },
+      {
+        "pergunta": "Existem animais de estimação na propriedade?",
+        "opcoes": [
+          "Não",
+          "Sim, cães",
+          "Sim, gatos",
+          "Sim, outros"
+        ]
+      },
+      {
+        "pergunta": "Certificado energético disponível?",
+        "opcoes": [
+          "Sim, atualizado",
+          "Sim, expirado",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Planta/projeto da propriedade disponível?",
+        "opcoes": [
+          "Sim, original",
+          "Sim, cópia",
+          "Não",
+          "Parcial"
+        ]
+      },
+      {
+        "pergunta": "Histórico de grandes reparações/renovações?",
+        "opcoes": [
+          "Sim, recente",
+          "Sim, há mais de 5 anos",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Problemas estruturais conhecidos?",
+        "opcoes": [
+          "Não",
+          "Sim, resolvidos",
+          "Sim, pendentes",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Seguro habitação ativo?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Sinistros anteriores (incêndios, inundações, tempestades)?",
+        "opcoes": [
+          "Não",
+          "Sim - [Descrição e data]"
+        ]
+      },
+      {
+        "pergunta": "Licenças de habitação em dia?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Alterações sem licença?",
+        "opcoes": [
+          "Não",
+          "Sim, legalizadas",
+          "Sim, por legalizar",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Problemas de vizinhança conhecidos?",
+        "opcoes": [
+          "Não",
+          "Ruído",
+          "Outros",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Propriedade já foi arrendada?",
+        "opcoes": [
+          "Não",
+          "Sim, curto prazo",
+          "Sim, longo prazo",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Propriedade horizontal ou total?",
+        "opcoes": [
+          "Horizontal (apartamento",
+          "fração)",
+          "Total (moradia)",
+          "Mista"
+        ]
+      },
+      {
+        "pergunta": "Número de frações ou unidades no edifício?",
+        "opcoes": [
+          "[Número]",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Última grande renovação (ano)?",
+        "opcoes": [
+          "[Ano]",
+          "Nunca",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Obras recentes realizadas (tipo, data, responsável)?",
+        "opcoes": [
+          "[Descrição]",
+          "Nenhuma"
+        ]
+      },
+      {
+        "pergunta": "Obras previstas (sim/não, quais)?",
+        "opcoes": [
+          "Não",
+          "Sim - [Descrição]"
+        ]
+      },
+      {
+        "pergunta": "Histórico de pragas (térmitas, roedores, insetos)?",
+        "opcoes": [
+          "Não",
+          "Sim, tratado",
+          "Sim, ativo",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Queixas de vizinhos ou condomínio?",
+        "opcoes": [
+          "Não",
+          "Sim - [Descrição]"
+        ]
+      },
+      {
+        "pergunta": "Dívidas associadas ao imóvel (condomínio, impostos, serviços)?",
+        "opcoes": [
+          "Não",
+          "Sim - [Descrição]"
+        ]
+      },
+      {
+        "pergunta": "Contratos ativos (luz, gás, água, limpeza, manutenção)?",
+        "opcoes": [
+          "[Lista]",
+          "Nenhum",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Relatórios de inspeção anteriores disponíveis?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Parcialmente"
+        ]
+      },
+      {
+        "pergunta": "Últimas inspeções (gás, elétrica, chaminé) - datas?",
+        "opcoes": [
+          "[Datas]",
+          "Não aplicável",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Documentação técnica disponível (plantas, manuais, fichas)?",
+        "opcoes": [
+          "Completa",
+          "Parcial",
+          "Não disponível"
+        ]
+      }
+    ]
+  },
+  {
+    "secao": "1A. Envolvencia_Local",
+    "campos": [
+      {
+        "pergunta": "Zona da propriedade?",
+        "opcoes": [
+          "Centro da cidade",
+          "Zona residencial",
+          "Zona comercial",
+          "Zona industrial",
+          "Subúrbios",
+          "Rural"
+        ]
+      },
+      {
+        "pergunta": "Densidade populacional?",
+        "opcoes": [
+          "Alta",
+          "Média",
+          "Baixa"
+        ]
+      },
+      {
+        "pergunta": "Tipo de vizinhança?",
+        "opcoes": [
+          "Estabelecida",
+          "Em desenvolvimento",
+          "Mista",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Ambiente geral?",
+        "opcoes": [
+          "Tranquilo",
+          "Moderado",
+          "Movimentado",
+          "Ruidoso"
+        ]
+      },
+      {
+        "pergunta": "Acesso a transportes públicos?",
+        "opcoes": [
+          "Excelente (<200m)",
+          "Bom (200-500m)",
+          "Razoável (500m-1km)",
+          "Distante (>1km)"
+        ]
+      },
+      {
+        "pergunta": "Proximidade de paragem de autocarro?",
+        "opcoes": [
+          "<100m",
+          "100-300m",
+          "300-500m",
+          ">500m",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Estação de metro/comboio?",
+        "opcoes": [
+          "<500m",
+          "500m-1km",
+          "1-2km",
+          ">2km",
+          "Não existe"
+        ]
+      },
+      {
+        "pergunta": "Acesso a autoestrada?",
+        "opcoes": [
+          "<2km",
+          "2-5km",
+          "5-10km",
+          ">10km"
+        ]
+      },
+      {
+        "pergunta": "Facilidade de estacionamento na rua?",
+        "opcoes": [
+          "Fácil",
+          "Moderado",
+          "Difícil",
+          "Muito difícil",
+          "Pago"
+        ]
+      },
+      {
+        "pergunta": "Creche/Jardim de infância?",
+        "opcoes": [
+          "<300m",
+          "300m-1km",
+          "1-2km",
+          ">2km",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Escola básica (1º ciclo)?",
+        "opcoes": [
+          "<500m",
+          "500m-1km",
+          "1-2km",
+          ">2km"
+        ]
+      },
+      {
+        "pergunta": "Escola básica (2º/3º ciclo)?",
+        "opcoes": [
+          "<1km",
+          "1-2km",
+          "2-5km",
+          ">5km"
+        ]
+      },
+      {
+        "pergunta": "Escola secundária?",
+        "opcoes": [
+          "<1km",
+          "1-2km",
+          "2-5km",
+          ">5km"
+        ]
+      },
+      {
+        "pergunta": "Universidade/Politécnico?",
+        "opcoes": [
+          "<5km",
+          "5-10km",
+          "10-20km",
+          ">20km",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Supermercado?",
+        "opcoes": [
+          "<300m",
+          "300m-1km",
+          "1-2km",
+          ">2km"
+        ]
+      },
+      {
+        "pergunta": "Centro comercial?",
+        "opcoes": [
+          "<1km",
+          "1-5km",
+          "5-10km",
+          ">10km"
+        ]
+      },
+      {
+        "pergunta": "Farmácia?",
+        "opcoes": [
+          "<300m",
+          "300m-1km",
+          "1-2km",
+          ">2km"
+        ]
+      },
+      {
+        "pergunta": "Banco/ATM?",
+        "opcoes": [
+          "<300m",
+          "300m-1km",
+          "1-2km",
+          ">2km"
+        ]
+      },
+      {
+        "pergunta": "Correios?",
+        "opcoes": [
+          "<500m",
+          "500m-1km",
+          "1-2km",
+          ">2km"
+        ]
+      },
+      {
+        "pergunta": "Mercado municipal?",
+        "opcoes": [
+          "<1km",
+          "1-2km",
+          "2-5km",
+          ">5km",
+          "Não existe"
+        ]
+      },
+      {
+        "pergunta": "Padaria/Pastelaria?",
+        "opcoes": [
+          "<200m",
+          "200-500m",
+          "500m-1km",
+          ">1km"
+        ]
+      },
+      {
+        "pergunta": "Restaurantes/Cafés?",
+        "opcoes": [
+          "Vários próximos",
+          "Alguns",
+          "Poucos",
+          "Distantes"
+        ]
+      },
+      {
+        "pergunta": "Centro de saúde?",
+        "opcoes": [
+          "<500m",
+          "500m-1km",
+          "1-3km",
+          ">3km"
+        ]
+      },
+      {
+        "pergunta": "Hospital?",
+        "opcoes": [
+          "<2km",
+          "2-5km",
+          "5-10km",
+          ">10km"
+        ]
+      },
+      {
+        "pergunta": "Clínica privada?",
+        "opcoes": [
+          "<1km",
+          "1-3km",
+          "3-5km",
+          ">5km"
+        ]
+      },
+      {
+        "pergunta": "Dentista?",
+        "opcoes": [
+          "<500m",
+          "500m-1km",
+          "1-2km",
+          ">2km"
+        ]
+      },
+      {
+        "pergunta": "Parques/jardins públicos?",
+        "opcoes": [
+          "<300m",
+          "300m-1km",
+          "1-2km",
+          ">2km"
+        ]
+      },
+      {
+        "pergunta": "Instalações desportivas?",
+        "opcoes": [
+          "<500m",
+          "500m-1km",
+          "1-3km",
+          ">3km"
+        ]
+      },
+      {
+        "pergunta": "Ginásio/Academia?",
+        "opcoes": [
+          "<500m",
+          "500m-1km",
+          "1-2km",
+          ">2km"
+        ]
+      },
+      {
+        "pergunta": "Piscina municipal?",
+        "opcoes": [
+          "<1km",
+          "1-3km",
+          "3-5km",
+          ">5km"
+        ]
+      },
+      {
+        "pergunta": "Cinema?",
+        "opcoes": [
+          "<2km",
+          "2-5km",
+          "5-10km",
+          ">10km"
+        ]
+      },
+      {
+        "pergunta": "Teatro/Centro cultural?",
+        "opcoes": [
+          "<2km",
+          "2-5km",
+          "5-10km",
+          ">10km"
+        ]
+      },
+      {
+        "pergunta": "Biblioteca?",
+        "opcoes": [
+          "<1km",
+          "1-3km",
+          "3-5km",
+          ">5km"
+        ]
+      },
+      {
+        "pergunta": "Zona ribeirinha/praia?",
+        "opcoes": [
+          "<2km",
+          "2-5km",
+          "5-10km",
+          ">10km",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Iluminação pública adequada?",
+        "opcoes": [
+          "Sim",
+          "Parcialmente",
+          "Insuficiente"
+        ]
+      },
+      {
+        "pergunta": "Perceção de segurança na área?",
+        "opcoes": [
+          "Muito segura",
+          "Segura",
+          "Razoável",
+          "Insegura"
+        ]
+      },
+      {
+        "pergunta": "Esquadra de polícia?",
+        "opcoes": [
+          "<1km",
+          "1-3km",
+          "3-5km",
+          ">5km"
+        ]
+      },
+      {
+        "pergunta": "Bombeiros?",
+        "opcoes": [
+          "<2km",
+          "2-5km",
+          "5-10km",
+          ">10km"
+        ]
+      },
+      {
+        "pergunta": "Estado das vias de acesso?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Razoável",
+          "Mau"
+        ]
+      },
+      {
+        "pergunta": "Passeios em bom estado?",
+        "opcoes": [
+          "Sim",
+          "Maioria",
+          "Alguns danificados",
+          "Precários"
+        ]
+      },
+      {
+        "pergunta": "Recolha de lixo?",
+        "opcoes": [
+          "Diária",
+          "3x semana",
+          "2x semana",
+          "Semanal",
+          "Irregular"
+        ]
+      },
+      {
+        "pergunta": "Contentores de reciclagem?",
+        "opcoes": [
+          "Sim, próximos",
+          "Sim, distantes",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Limpeza urbana?",
+        "opcoes": [
+          "Excelente",
+          "Boa",
+          "Razoável",
+          "Insuficiente"
+        ]
+      },
+      {
+        "pergunta": "Nível de ruído geral?",
+        "opcoes": [
+          "Muito baixo",
+          "Baixo",
+          "Moderado",
+          "Alto",
+          "Muito alto"
+        ]
+      },
+      {
+        "pergunta": "Ruído de tráfego?",
+        "opcoes": [
+          "Inexistente",
+          "Baixo",
+          "Moderado",
+          "Alto",
+          "Muito alto"
+        ]
+      },
+      {
+        "pergunta": "Qualidade do ar?",
+        "opcoes": [
+          "Excelente",
+          "Boa",
+          "Razoável",
+          "Má"
+        ]
+      },
+      {
+        "pergunta": "Indústrias próximas?",
+        "opcoes": [
+          "Não",
+          "Sim, ligeiras",
+          "Sim, pesadas"
+        ]
+      },
+      {
+        "pergunta": "Tendência de valorização da zona?",
+        "opcoes": [
+          "Em alta valorização",
+          "Estável",
+          "Em desvalorização",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Novos desenvolvimentos imobiliários?",
+        "opcoes": [
+          "Vários",
+          "Alguns",
+          "Poucos",
+          "Nenhum"
+        ]
+      },
+      {
+        "pergunta": "Procura na zona?",
+        "opcoes": [
+          "Muito alta",
+          "Alta",
+          "Média",
+          "Baixa"
+        ]
+      },
+      {
+        "pergunta": "Coordenadas GPS da propriedade?",
+        "opcoes": [
+          "[Latitude, Longitude]",
+          "Não disponível"
+        ]
+      },
+      {
+        "pergunta": "Classificação do solo (PDM)?",
+        "opcoes": [
+          "Urbano",
+          "Urbanizável",
+          "Rústico",
+          "Misto",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Drenagem natural e características do terreno?",
+        "opcoes": [
+          "Boa",
+          "Moderada",
+          "Má",
+          "Zona de risco",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Proximidade de rios ou linhas de água?",
+        "opcoes": [
+          "Não",
+          "<100m",
+          "100-500m",
+          ">500m"
+        ]
+      },
+      {
+        "pergunta": "Proximidade de indústrias ou fontes de poluição?",
+        "opcoes": [
+          "Não",
+          "<500m",
+          "500m-1km",
+          ">1km"
+        ]
+      },
+      {
+        "pergunta": "Relação com vizinhos?",
+        "opcoes": [
+          "Boa",
+          "Neutra",
+          "Conflituosa",
+          "Desconhecido",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Nível de ruído e perturbações na zona?",
+        "opcoes": [
+          "Silencioso",
+          "Moderado",
+          "Ruidoso",
+          "Muito ruidoso"
+        ]
+      },
+      {
+        "pergunta": "Segurança do bairro (criminalidade)?",
+        "opcoes": [
+          "Muito seguro",
+          "Seguro",
+          "Razoável",
+          "Inseguro",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Existência de espaços verdes e lazer próximos?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Razoável",
+          "Escasso"
+        ]
+      },
+      {
+        "pergunta": "Animais de estimação dos vizinhos causam perturbações?",
+        "opcoes": [
+          "Não",
+          "Ocasionalmente",
+          "Frequentemente",
+          "Desconhecido"
+        ]
+      }
+    ]
+  },
+  {
+    "secao": "1B. Estrutura_Construcao",
+    "campos": [
+      {
+        "pergunta": "Fundações visíveis e acessíveis?",
+        "opcoes": [
+          "Sim, visíveis",
+          "Parcialmente",
+          "Não acessíveis",
+          "Enterradas"
+        ]
+      },
+      {
+        "pergunta": "Sinais de assentamento ou movimentação?",
+        "opcoes": [
+          "Não",
+          "Leves",
+          "Moderados",
+          "Graves",
+          "Não avaliado"
+        ]
+      },
+      {
+        "pergunta": "Fissuras estruturais identificadas (tipo e localização)?",
+        "opcoes": [
+          "Nenhuma",
+          "Capilares",
+          "Horizontais",
+          "Verticais",
+          "Diagonais"
+        ]
+      },
+      {
+        "pergunta": "Deformações de pisos e paredes?",
+        "opcoes": [
+          "Não",
+          "Leves",
+          "Moderadas",
+          "Graves"
+        ]
+      },
+      {
+        "pergunta": "Materiais estruturais principais?",
+        "opcoes": [
+          "Betão armado",
+          "Alvenaria",
+          "Madeira",
+          "Metálico",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Reforços estruturais existentes?",
+        "opcoes": [
+          "Não aplicável",
+          "Sim, adequados",
+          "Sim, insuficientes",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Humidade ascendente e eflorescência?",
+        "opcoes": [
+          "Não",
+          "Leve",
+          "Moderada",
+          "Grave",
+          "Múltiplas zonas"
+        ]
+      },
+      {
+        "pergunta": "Materiais obsoletos ou perigosos (fibrocimento, amianto, chumbo)?",
+        "opcoes": [
+          "Não detetados",
+          "Suspeita",
+          "Confirmados",
+          "Análise necessária"
+        ]
+      },
+      {
+        "pergunta": "Infiltrações visíveis (localização)?",
+        "opcoes": [
+          "Não",
+          "Teto",
+          "Paredes",
+          "Pavimento",
+          "Múltiplas zonas"
+        ]
+      },
+      {
+        "pergunta": "Estado geral da estrutura?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Aceitável",
+          "Necessita intervenção",
+          "Crítico"
+        ]
+      }
+    ]
+  },
+  {
+    "secao": "2. Exterior",
+    "campos": [
+      {
+        "pergunta": "Qual o estado geral do material de cobertura?",
+        "opcoes": [
+          "Bom (<5 anos)",
+          "Aceitável (5-15 anos)",
+          "Reparo Imediato",
+          "Fim da Vida Útil"
+        ]
+      },
+      {
+        "pergunta": "Existem telhas/placas danificadas, em falta ou levantadas?",
+        "opcoes": [
+          "Nenhuma",
+          "Poucas",
+          "Moderadas",
+          "Muitas"
+        ]
+      },
+      {
+        "pergunta": "Qual o estado das chaminés e clarabóias (vedação, fissuras)?",
+        "opcoes": [
+          "Bom",
+          "Aceitável",
+          "Fugas Ativas",
+          "Mau"
+        ]
+      },
+      {
+        "pergunta": "As caleiras estão limpas, bem fixas e escoam a água corretamente?",
+        "opcoes": [
+          "Limpas e Firmes",
+          "Entupidas",
+          "Soltas",
+          "Escoa perto da fundação"
+        ]
+      },
+      {
+        "pergunta": "Há sinais de fissuras significativas na fundação?",
+        "opcoes": [
+          "Nenhuma",
+          "Fissuras Capilares",
+          "Horizontal (Grave)",
+          "Vertical Grande"
+        ]
+      },
+      {
+        "pergunta": "O terreno inclina-se adequadamente para longe da fundação?",
+        "opcoes": [
+          "Sim",
+          "Inclinação Insuficiente",
+          "Inclina-se para a Casa"
+        ]
+      },
+      {
+        "pergunta": "O revestimento apresenta danos (fissuras, bolhas)?",
+        "opcoes": [
+          "Bom",
+          "Fissuras Estéticas",
+          "Bolhas",
+          "Fissuras Estruturais"
+        ]
+      },
+      {
+        "pergunta": "Estado da calafetagem/vedação em portas e janelas?",
+        "opcoes": [
+          "Boa",
+          "Desgastada",
+          "Falhada"
+        ]
+      },
+      {
+        "pergunta": "Estado do deck, varanda ou escadas exteriores?",
+        "opcoes": [
+          "Bom",
+          "Tábuas Soltas",
+          "Podridão",
+          "Reparo Estrutural"
+        ]
+      },
+      {
+        "pergunta": "O portão da garagem e o mecanismo funcionam corretamente?",
+        "opcoes": [
+          "Funciona Perfeitamente",
+          "Manual com Dificuldade",
+          "Automático Avariado",
+          "Danos Estruturais"
+        ]
+      },
+      {
+        "pergunta": "Material do telhado?",
+        "opcoes": [
+          "Telha cerâmica",
+          "Telha betão",
+          "Ardósia",
+          "Metal",
+          "Fibrocimento",
+          "Outro"
+        ]
+      },
+      {
+        "pergunta": "Existe isolamento térmico no telhado?",
+        "opcoes": [
+          "Sim, adequado",
+          "Sim, insuficiente",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Material da fachada?",
+        "opcoes": [
+          "Reboco",
+          "Tijolo",
+          "Pedra",
+          "Madeira",
+          "Compósito",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Existem sinais de humidade na fachada?",
+        "opcoes": [
+          "Não",
+          "Manchas leves",
+          "Manchas graves",
+          "Mofo",
+          "Eflorescência"
+        ]
+      },
+      {
+        "pergunta": "Tipo de caixilharia?",
+        "opcoes": [
+          "Alumínio",
+          "PVC",
+          "Madeira",
+          "Ferro",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Vidros duplos ou simples?",
+        "opcoes": [
+          "Duplos",
+          "Simples",
+          "Misto",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Sistema de drenagem pluvial?",
+        "opcoes": [
+          "Adequado",
+          "Insuficiente",
+          "Bloqueado",
+          "Inexistente"
+        ]
+      },
+      {
+        "pergunta": "Existem varandas ou terraços?",
+        "opcoes": [
+          "Não",
+          "Sim, bom estado",
+          "Sim, com problemas",
+          "Sim, perigoso"
+        ]
+      },
+      {
+        "pergunta": "Estado da vedação/muro?",
+        "opcoes": [
+          "Bom",
+          "Desgaste moderado",
+          "Danos graves",
+          "Inexistente"
+        ]
+      },
+      {
+        "pergunta": "Iluminação exterior funcional?",
+        "opcoes": [
+          "Sim, todas",
+          "Parcialmente",
+          "Não funciona",
+          "Inexistente"
+        ]
+      },
+      {
+        "pergunta": "Estado do jardim/área verde?",
+        "opcoes": [
+          "Bem mantido",
+          "Necessita manutenção",
+          "Negligenciado",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Sistema de irrigação?",
+        "opcoes": [
+          "Automático funcional",
+          "Manual",
+          "Avariado",
+          "Inexistente"
+        ]
+      },
+      {
+        "pergunta": "Árvores próximas representam risco?",
+        "opcoes": [
+          "Não",
+          "Sim, ramos sobre telhado",
+          "Sim, raízes afetam fundação",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Sinais de acumulação de água?",
+        "opcoes": [
+          "Não",
+          "Sim, leve",
+          "Sim, significativa"
+        ]
+      },
+      {
+        "pergunta": "Caixas de inspeção acessíveis?",
+        "opcoes": [
+          "Sim, todas",
+          "Algumas",
+          "Não localizadas"
+        ]
+      },
+      {
+        "pergunta": "Piscina presente?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Estado da piscina (se aplicável)?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Necessita reparação",
+          "Abandono",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Vedação de segurança na piscina?",
+        "opcoes": [
+          "Sim, conforme",
+          "Insuficiente",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Arrumos/Casa de ferramentas?",
+        "opcoes": [
+          "Bom estado",
+          "Deteriorado",
+          "Não existe"
+        ]
+      },
+      {
+        "pergunta": "Estado estrutural dos anexos?",
+        "opcoes": [
+          "Sólido",
+          "Necessita reparação",
+          "Perigoso",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Juntas de dilatação em bom estado?",
+        "opcoes": [
+          "Sim",
+          "Deterioradas",
+          "Não existem",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Fissuras nos vãos (portas/janelas)?",
+        "opcoes": [
+          "Não",
+          "Leves",
+          "Moderadas",
+          "Graves"
+        ]
+      },
+      {
+        "pergunta": "Fachada com tratamento impermeabilizante?",
+        "opcoes": [
+          "Sim, recente",
+          "Sim, antigo",
+          "Não",
+          "Desconhecido"
+        ]
+      }
+    ]
+  },
+  {
+    "secao": "2A. Anexos_Garagem",
+    "campos": [
+      {
+        "pergunta": "Garagem presente?",
+        "opcoes": [
+          "Sim, fechada",
+          "Sim, aberta (carport)",
+          "Não",
+          "Box exterior"
+        ]
+      },
+      {
+        "pergunta": "Capacidade da garagem?",
+        "opcoes": [
+          "1 veículo",
+          "2 veículos",
+          "3+ veículos",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Acesso à garagem?",
+        "opcoes": [
+          "Direto da casa",
+          "Externo coberto",
+          "Externo descoberto",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Tipo de portão?",
+        "opcoes": [
+          "Manual basculante",
+          "Manual seccionado",
+          "Automático",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Estado do portão?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Funciona com dificuldade",
+          "Avariado",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Pavimento da garagem?",
+        "opcoes": [
+          "Betão bom estado",
+          "Betão danificado",
+          "Terra batida",
+          "Ladrilho",
+          "Outro"
+        ]
+      },
+      {
+        "pergunta": "Iluminação na garagem?",
+        "opcoes": [
+          "Adequada",
+          "Insuficiente",
+          "Não existe",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Tomadas elétricas?",
+        "opcoes": [
+          "Sim, várias",
+          "Sim, poucas",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Ventilação?",
+        "opcoes": [
+          "Boa",
+          "Adequada",
+          "Insuficiente",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Humidade ou infiltrações?",
+        "opcoes": [
+          "Não",
+          "Manchas leves",
+          "Infiltração ativa",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Ponto de água?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Escoamento de águas?",
+        "opcoes": [
+          "Sim, funcional",
+          "Bloqueado",
+          "Não existe",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Arrumos/arrecadação exterior?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Box separado"
+        ]
+      },
+      {
+        "pergunta": "Dimensão dos arrumos?",
+        "opcoes": [
+          "Pequena (<3m²)",
+          "Média (3-6m²)",
+          "Grande (>6m²)",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Estado estrutural?",
+        "opcoes": [
+          "Bom",
+          "Necessita reparação",
+          "Precário",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Acesso aos arrumos?",
+        "opcoes": [
+          "Fácil",
+          "Difícil",
+          "Requer escada",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Iluminação?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Natural apenas",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Ventilação?",
+        "opcoes": [
+          "Adequada",
+          "Insuficiente",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Humidade?",
+        "opcoes": [
+          "Não",
+          "Sim, ligeira",
+          "Sim, significativa",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Logradouro/quintal privado?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Partilhado",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Área aproximada?",
+        "opcoes": [
+          "[m²]",
+          "Pequeno (<20m²)",
+          "Médio (20-100m²)",
+          "Grande (>100m²)"
+        ]
+      },
+      {
+        "pergunta": "Vedação/muros?",
+        "opcoes": [
+          "Sim, bom estado",
+          "Sim, necessita reparação",
+          "Não",
+          "Parcial"
+        ]
+      },
+      {
+        "pergunta": "Portão de acesso?",
+        "opcoes": [
+          "Sim, funcional",
+          "Sim, danificado",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Pavimento do quintal?",
+        "opcoes": [
+          "Relva",
+          "Betão",
+          "Terra",
+          "Ladrilho",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Estado do pavimento?",
+        "opcoes": [
+          "Bom",
+          "Irregular",
+          "Danificado",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Iluminação exterior?",
+        "opcoes": [
+          "Sim, adequada",
+          "Sim, insuficiente",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Ponto de água exterior?",
+        "opcoes": [
+          "Sim, funcional",
+          "Sim, avariado",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Torneira de rega?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Várias"
+        ]
+      },
+      {
+        "pergunta": "Sistema de drenagem?",
+        "opcoes": [
+          "Adequado",
+          "Insuficiente",
+          "Não existe"
+        ]
+      },
+      {
+        "pergunta": "Churrasqueira/barbecue?",
+        "opcoes": [
+          "Sim, fixa",
+          "Sim, amovível",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Estado da churrasqueira?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Necessita reparação",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Área de refeições exterior?",
+        "opcoes": [
+          "Sim, coberta",
+          "Sim, descoberta",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Pérgola ou cobertura?",
+        "opcoes": [
+          "Sim, bom estado",
+          "Sim, necessita reparação",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Piscina presente?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Tipo de piscina?",
+        "opcoes": [
+          "Enterrada",
+          "Semi-enterrada",
+          "Sobrelevada",
+          "Desmontável",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Dimensões aproximadas?",
+        "opcoes": [
+          "[comprimento x largura x profundidade metros]",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Estado da piscina?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Necessita manutenção",
+          "Não funcional",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Revestimento?",
+        "opcoes": [
+          "Mosaico",
+          "Liner",
+          "Fibra",
+          "Betão pintado",
+          "Outro",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Sistema de filtração?",
+        "opcoes": [
+          "Funcional",
+          "Com problemas",
+          "Não funcional",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Bomba de circulação?",
+        "opcoes": [
+          "Funcional",
+          "Ruidosa",
+          "Avariada",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Aquecimento da água?",
+        "opcoes": [
+          "Sim, solar",
+          "Sim, bomba de calor",
+          "Sim, elétrico",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Cobertura de piscina?",
+        "opcoes": [
+          "Sim, automática",
+          "Sim, manual",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Vedação de segurança?",
+        "opcoes": [
+          "Sim, conforme",
+          "Sim, inadequada",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Casa de máquinas?",
+        "opcoes": [
+          "Sim, organizada",
+          "Sim, desorganizada",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Iluminação subaquática?",
+        "opcoes": [
+          "Sim, funcional",
+          "Sim, avariada",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Telheiro/abrigo?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Casa de ferramentas?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Canil ou anexos para animais?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Estado geral dos anexos?",
+        "opcoes": [
+          "Bom",
+          "Aceitável",
+          "Necessita reparação",
+          "Não aplicável"
+        ]
+      }
+    ]
+  },
+  {
+    "secao": "3A. Eletrico",
+    "campos": [
+      {
+        "pergunta": "Capacidade do painel elétrico principal?",
+        "opcoes": [
+          "60A",
+          "100A",
+          "200A",
+          "300A",
+          "400A+",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Tipo de sistema?",
+        "opcoes": [
+          "Monofásico",
+          "Trifásico",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Tensão de alimentação?",
+        "opcoes": [
+          "230V",
+          "400V",
+          "Outra",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "O sistema é a disjuntores ou fusíveis?",
+        "opcoes": [
+          "Disjuntores",
+          "Fusíveis",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Ano estimado da instalação elétrica?",
+        "opcoes": [
+          "Recente (<5 anos)",
+          "5-15 anos",
+          "15-30 anos",
+          ">30 anos",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Localização do quadro principal?",
+        "opcoes": [
+          "Interior acessível",
+          "Exterior",
+          "Difícil acesso",
+          "Não identificado"
+        ]
+      },
+      {
+        "pergunta": "Quadro identificado e etiquetado?",
+        "opcoes": [
+          "Sim, completamente",
+          "Parcialmente",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Espaço para expansão no quadro?",
+        "opcoes": [
+          "Sim, adequado",
+          "Limitado",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Estado geral do quadro?",
+        "opcoes": [
+          "Bom",
+          "Oxidação leve",
+          "Oxidação grave",
+          "Danos visíveis"
+        ]
+      },
+      {
+        "pergunta": "Sinais de sobreaquecimento?",
+        "opcoes": [
+          "Não",
+          "Descoloração",
+          "Cheiro",
+          "Marcas de queimadura"
+        ]
+      },
+      {
+        "pergunta": "Ligações apertadas e seguras?",
+        "opcoes": [
+          "Sim",
+          "Algumas soltas",
+          "Não verificado"
+        ]
+      },
+      {
+        "pergunta": "Diferencial instalado?",
+        "opcoes": [
+          "Sim, 30mA",
+          "Sim, 300mA",
+          "Sim, múltiplos",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Diferencial testado e funcional?",
+        "opcoes": [
+          "Sim, testado",
+          "Não testado",
+          "Falha no teste"
+        ]
+      },
+      {
+        "pergunta": "Proteção contra sobretensão (DPS)?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Disjuntores corretamente dimensionados?",
+        "opcoes": [
+          "Sim",
+          "Alguns inadequados",
+          "Não verificado"
+        ]
+      },
+      {
+        "pergunta": "Seletividade entre disjuntores?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Sistema de ligação à terra?",
+        "opcoes": [
+          "TT",
+          "TN-S",
+          "TN-C",
+          "IT",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Elétrodo de terra acessível?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Não identificado"
+        ]
+      },
+      {
+        "pergunta": "Resistência de terra medida?",
+        "opcoes": [
+          "Sim, <100Ω",
+          "Sim, >100Ω",
+          "Não medida"
+        ]
+      },
+      {
+        "pergunta": "Barramento de terra em bom estado?",
+        "opcoes": [
+          "Sim",
+          "Oxidado",
+          "Ligações soltas",
+          "Não acessível"
+        ]
+      },
+      {
+        "pergunta": "Ligações equipotenciais nas casas de banho?",
+        "opcoes": [
+          "Sim, todas",
+          "Algumas",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Tipo de cabo predominante?",
+        "opcoes": [
+          "Cobre",
+          "Alumínio",
+          "Misto",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Secção adequada aos circuitos?",
+        "opcoes": [
+          "Sim",
+          "Algumas inadequadas",
+          "Não verificado"
+        ]
+      },
+      {
+        "pergunta": "Estado da cablagem visível?",
+        "opcoes": [
+          "Bom",
+          "Deterioração",
+          "Isolamento danificado",
+          "Emendas expostas"
+        ]
+      },
+      {
+        "pergunta": "Tubagem/calha de proteção?",
+        "opcoes": [
+          "Sim, adequada",
+          "Parcial",
+          "Inexistente",
+          "Danificada"
+        ]
+      },
+      {
+        "pergunta": "Fiação exposta ou provisória?",
+        "opcoes": [
+          "Não",
+          "Sim, pouca",
+          "Sim, extensa"
+        ]
+      },
+      {
+        "pergunta": "Código de cores respeitado?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Número adequado de tomadas?",
+        "opcoes": [
+          "Sim",
+          "Insuficiente",
+          "Excessivo uso de extensões"
+        ]
+      },
+      {
+        "pergunta": "Tomadas com terra?",
+        "opcoes": [
+          "Todas",
+          "Maioria",
+          "Algumas",
+          "Nenhuma"
+        ]
+      },
+      {
+        "pergunta": "Tomadas testadas funcionais?",
+        "opcoes": [
+          "Sim, todas",
+          "Algumas falhadas",
+          "Não testadas"
+        ]
+      },
+      {
+        "pergunta": "Estado físico das tomadas?",
+        "opcoes": [
+          "Bom",
+          "Soltas",
+          "Partidas",
+          "Sinais de queimadura"
+        ]
+      },
+      {
+        "pergunta": "Tomadas em áreas molhadas (IP adequado)?",
+        "opcoes": [
+          "Sim, IP44+",
+          "Não adequadas",
+          "Inexistentes",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Estado dos interruptores?",
+        "opcoes": [
+          "Bom",
+          "Alguns soltos",
+          "Não funcionam",
+          "Faíscas"
+        ]
+      },
+      {
+        "pergunta": "Tipo de lâmpadas predominante?",
+        "opcoes": [
+          "LED",
+          "Fluorescente",
+          "Incandescente",
+          "Halogéneo",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Pontos de luz funcionais?",
+        "opcoes": [
+          "Todos",
+          "Maioria",
+          "Vários com problemas"
+        ]
+      },
+      {
+        "pergunta": "Iluminação de emergência?",
+        "opcoes": [
+          "Sim, funcional",
+          "Sim, não testada",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Painel solar fotovoltaico ligado?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Inversor solar funcional?",
+        "opcoes": [
+          "Sim",
+          "Com problemas",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Sistema de carregamento veículos elétricos?",
+        "opcoes": [
+          "Sim",
+          "Preparado",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Gerador de emergência?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Certificação elétrica (CERTIEL)?",
+        "opcoes": [
+          "Sim, válida (<2 anos)",
+          "Sim, expirada",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Projeto elétrico disponível?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Termo de responsabilidade disponível?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Conforme com RTIEBT?",
+        "opcoes": [
+          "Sim",
+          "Não conforme",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Necessidade de reinspeção?",
+        "opcoes": [
+          "Não",
+          "Sim, pequenas correções",
+          "Sim, trabalhos extensos"
+        ]
+      },
+      {
+        "pergunta": "Todas as luzes funcionam?",
+        "opcoes": [
+          "Sim",
+          "Maioria",
+          "Várias avariadas",
+          "Muitas avariadas"
+        ]
+      },
+      {
+        "pergunta": "Tipo predominante de lâmpadas?",
+        "opcoes": [
+          "LED",
+          "Fluorescente",
+          "Incandescente",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Interruptores funcionais?",
+        "opcoes": [
+          "Todos",
+          "Alguns com problemas",
+          "Vários danificados"
+        ]
+      },
+      {
+        "pergunta": "Reguladores de intensidade (dimmers)?",
+        "opcoes": [
+          "Sim, funcionais",
+          "Sim, com problemas",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Estado físico das tomadas?",
+        "opcoes": [
+          "Bom",
+          "Algumas soltas",
+          "Várias danificadas"
+        ]
+      },
+      {
+        "pergunta": "Tomadas sobrecarregadas (extensões)?",
+        "opcoes": [
+          "Não",
+          "Algumas",
+          "Uso excessivo"
+        ]
+      },
+      {
+        "pergunta": "Tomadas USB integradas?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Algumas"
+        ]
+      },
+      {
+        "pergunta": "Grandes eletrodomésticos com circuitos dedicados?",
+        "opcoes": [
+          "Sim",
+          "Parcialmente",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Sistema fotovoltaico instalado?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Estado e funcionamento (se aplicável)?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Com problemas",
+          "Não aplicável"
+        ]
+      }
+    ]
+  },
+  {
+    "secao": "3B. Canalizacao",
+    "campos": [
+      {
+        "pergunta": "Idade estimada da canalização?",
+        "opcoes": [
+          "<10 anos",
+          "10-20 anos",
+          "20-30 anos",
+          ">30 anos",
+          "Misto",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Estado geral do sistema?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Aceitável",
+          "Necessita intervenção",
+          "Crítico"
+        ]
+      },
+      {
+        "pergunta": "Pressão de água adequada?",
+        "opcoes": [
+          "Ótima (3-5 bar)",
+          "Aceitável (2-3 bar)",
+          "Baixa (<2 bar)",
+          "Alta (>5 bar)"
+        ]
+      },
+      {
+        "pergunta": "Qualidade da água?",
+        "opcoes": [
+          "Límpida",
+          "Coloração",
+          "Partículas",
+          "Mau cheiro",
+          "Não avaliado"
+        ]
+      },
+      {
+        "pergunta": "Origem da água?",
+        "opcoes": [
+          "Rede pública",
+          "Furo",
+          "poço",
+          "Nascente",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Ramal de entrada visível?",
+        "opcoes": [
+          "Sim",
+          "Parcial",
+          "Enterrado",
+          "Não identificado"
+        ]
+      },
+      {
+        "pergunta": "Material do ramal de entrada?",
+        "opcoes": [
+          "Cobre",
+          "PVC",
+          "PEAD",
+          "Galvanizado",
+          "Chumbo",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Diâmetro do ramal adequado?",
+        "opcoes": [
+          "Sim",
+          "Insuficiente",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Contador de água acessível?",
+        "opcoes": [
+          "Sim, fácil",
+          "Difícil acesso",
+          "Enterrado",
+          "Não localizado"
+        ]
+      },
+      {
+        "pergunta": "Válvula de corte geral funcional?",
+        "opcoes": [
+          "Sim",
+          "Dura",
+          "Não fecha completamente",
+          "Não localizada"
+        ]
+      },
+      {
+        "pergunta": "Caixa do contador em bom estado?",
+        "opcoes": [
+          "Sim",
+          "Deteriorada",
+          "Inundada",
+          "Não acessível"
+        ]
+      },
+      {
+        "pergunta": "Material predominante das tubagens?",
+        "opcoes": [
+          "Cobre",
+          "PEX",
+          "PPR",
+          "PVC",
+          "Multicamada",
+          "Galvanizado",
+          "Chumbo",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Estado das tubagens visíveis?",
+        "opcoes": [
+          "Bom",
+          "Oxidação leve",
+          "Oxidação grave",
+          "Corrosão ativa"
+        ]
+      },
+      {
+        "pergunta": "Tubagens isoladas termicamente?",
+        "opcoes": [
+          "Sim",
+          "Parcial",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Traçado das tubagens acessível?",
+        "opcoes": [
+          "Sim",
+          "Parcialmente",
+          "Maioria oculta"
+        ]
+      },
+      {
+        "pergunta": "Sinais de fugas antigas?",
+        "opcoes": [
+          "Não",
+          "Manchas",
+          "Reparações visíveis",
+          "Múltiplas"
+        ]
+      },
+      {
+        "pergunta": "Fugas ativas identificadas?",
+        "opcoes": [
+          "Nenhuma",
+          "Gotejamento",
+          "Fuga moderada",
+          "Fuga grave"
+        ]
+      },
+      {
+        "pergunta": "Válvulas de corte setoriais?",
+        "opcoes": [
+          "Sim, todas identificadas",
+          "Algumas",
+          "Nenhumas",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Pressão em torneiras térreo?",
+        "opcoes": [
+          "Adequada",
+          "Baixa",
+          "Alta",
+          "Não testado"
+        ]
+      },
+      {
+        "pergunta": "Pressão em torneiras pisos superiores?",
+        "opcoes": [
+          "Adequada",
+          "Baixa",
+          "Alta",
+          "Não testado",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Caudal adequado?",
+        "opcoes": [
+          "Sim, todas",
+          "Algumas fracas",
+          "Maioria fraca"
+        ]
+      },
+      {
+        "pergunta": "Ar nas tubagens (golpe de aríete)?",
+        "opcoes": [
+          "Não",
+          "Ocasional",
+          "Frequente"
+        ]
+      },
+      {
+        "pergunta": "Redutor de pressão instalado?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Não necessário"
+        ]
+      },
+      {
+        "pergunta": "Tipo de sistema AQS?",
+        "opcoes": [
+          "Caldeira mista",
+          "Esquentador",
+          "Termoacumulador",
+          "Bomba calor",
+          "Solar térmico",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Capacidade do sistema adequada?",
+        "opcoes": [
+          "Sim",
+          "Insuficiente",
+          "Excessiva",
+          "Não avaliado"
+        ]
+      },
+      {
+        "pergunta": "Idade do equipamento AQS?",
+        "opcoes": [
+          "<5 anos",
+          "5-10 anos",
+          "10-15 anos",
+          ">15 anos",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Temperatura da água satisfatória?",
+        "opcoes": [
+          "Sim (50-60°C)",
+          "Baixa",
+          "Excessiva",
+          "Instável"
+        ]
+      },
+      {
+        "pergunta": "Tempo até água quente?",
+        "opcoes": [
+          "Imediato",
+          "<30seg",
+          "30-60seg",
+          ">60seg"
+        ]
+      },
+      {
+        "pergunta": "Rede de retorno (circulação)?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Válvula de segurança AQS?",
+        "opcoes": [
+          "Funcional",
+          "Goteja",
+          "Bloqueada",
+          "Ausente"
+        ]
+      },
+      {
+        "pergunta": "Vaso de expansão AQS?",
+        "opcoes": [
+          "Presente",
+          "Ausente",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Isolamento do depósito/tubagens?",
+        "opcoes": [
+          "Sim, adequado",
+          "Parcial",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Tipo de sistema?",
+        "opcoes": [
+          "Rede pública",
+          "Fossa séptica",
+          "ETAR privada",
+          "Poço absorvente",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Material das tubagens esgotos?",
+        "opcoes": [
+          "PVC",
+          "Ferro fundido",
+          "Cerâmica",
+          "Betão",
+          "Misto",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Escoamento adequado?",
+        "opcoes": [
+          "Sim, rápido",
+          "Lento",
+          "Muito lento",
+          "Entupimentos frequentes"
+        ]
+      },
+      {
+        "pergunta": "Cheiros anormais?",
+        "opcoes": [
+          "Não",
+          "Ocasionais",
+          "Frequentes",
+          "Permanentes"
+        ]
+      },
+      {
+        "pergunta": "Sifões funcionais?",
+        "opcoes": [
+          "Todos",
+          "Alguns secos",
+          "Vários com problemas"
+        ]
+      },
+      {
+        "pergunta": "Caixas de inspeção acessíveis?",
+        "opcoes": [
+          "Sim, todas",
+          "Algumas",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Estado das caixas de inspeção?",
+        "opcoes": [
+          "Bom",
+          "Necessitam limpeza",
+          "Partidas",
+          "Não acessíveis"
+        ]
+      },
+      {
+        "pergunta": "Ralos exteriores funcionais?",
+        "opcoes": [
+          "Sim",
+          "Entupidos",
+          "Ausentes"
+        ]
+      },
+      {
+        "pergunta": "Ventilação da rede de esgotos?",
+        "opcoes": [
+          "Adequada",
+          "Insuficiente",
+          "Ausente",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Sistema separativo (pluviais/esgotos)?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Caleiras e tubos de queda?",
+        "opcoes": [
+          "Bom estado",
+          "Entupidos",
+          "Soltos",
+          "Fugas"
+        ]
+      },
+      {
+        "pergunta": "Descarga das águas pluviais?",
+        "opcoes": [
+          "Rede pública",
+          "Sumidouro",
+          "Terreno",
+          "Outro"
+        ]
+      },
+      {
+        "pergunta": "Caixas de ralos limpas?",
+        "opcoes": [
+          "Sim",
+          "Entupidas",
+          "Não acessíveis"
+        ]
+      },
+      {
+        "pergunta": "Sistema de filtragem de água?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Descalcificador instalado?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Bomba de pressão (se necessário)?",
+        "opcoes": [
+          "Sim, funcional",
+          "Sim, avariada",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Depósito de água (reserva)?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Sistema de rega automático?",
+        "opcoes": [
+          "Sim, funcional",
+          "Sim, avariado",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Projeto de águas e esgotos?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Teste de estanquicidade realizado?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Inspeção fossa séptica (se aplicável)?",
+        "opcoes": [
+          "Recente (<1 ano)",
+          "Antiga (>1 ano)",
+          "Nunca",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Sistema de filtragem de água?",
+        "opcoes": [
+          "Sim, funcional",
+          "Sim, filtro expirado",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Sistema de descalcificação?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Bomba de água instalada?",
+        "opcoes": [
+          "Sim, funcional",
+          "Sim, com problemas",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Sinais de refluxo de esgoto?",
+        "opcoes": [
+          "Não",
+          "Ocasional",
+          "Frequente"
+        ]
+      },
+      {
+        "pergunta": "Válvulas de retenção instaladas?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Sinais de reparações anteriores?",
+        "opcoes": [
+          "Não",
+          "Algumas",
+          "Extensas"
+        ]
+      },
+      {
+        "pergunta": "Isolamento térmico em tubagens?",
+        "opcoes": [
+          "Sim, adequado",
+          "Parcial",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Pressão de água adequada em todos os pontos?",
+        "opcoes": [
+          "Sim",
+          "Alguns pontos fracos",
+          "Geral fraca"
+        ]
+      },
+      {
+        "pergunta": "Válvulas de corte acessíveis e funcionais?",
+        "opcoes": [
+          "Sim, todas",
+          "Algumas",
+          "Difícil acesso"
+        ]
+      },
+      {
+        "pergunta": "Evidência de manutenção regular?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido"
+        ]
+      }
+    ]
+  },
+  {
+    "secao": "3C. AVAC",
+    "campos": [
+      {
+        "pergunta": "Tipo de sistema de aquecimento?",
+        "opcoes": [
+          "Caldeira gás",
+          "Caldeira gasóleo",
+          "Bomba calor",
+          "Piso radiante",
+          "Radiadores",
+          "AC reversível",
+          "Lareira",
+          "recuperador",
+          "Misto",
+          "Inexistente"
+        ]
+      },
+      {
+        "pergunta": "Combustível utilizado?",
+        "opcoes": [
+          "Gás natural",
+          "Gás propano",
+          "Gasóleo",
+          "Eletricidade",
+          "Biomassa",
+          "Misto",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Potência do sistema adequada?",
+        "opcoes": [
+          "Sim",
+          "Subdimensionado",
+          "Sobredimensionado",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Idade do sistema?",
+        "opcoes": [
+          "<5 anos",
+          "5-10 anos",
+          "10-20 anos",
+          ">20 anos",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Marca e modelo da caldeira?",
+        "opcoes": [
+          "[Especificar]",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Potência da caldeira (kW)?",
+        "opcoes": [
+          "[Valor numérico]",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Tipo de caldeira?",
+        "opcoes": [
+          "Mural",
+          "Chão",
+          "Mista (AQS)",
+          "Só aquecimento"
+        ]
+      },
+      {
+        "pergunta": "Estado geral da caldeira?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Aceitável",
+          "Necessita substituição"
+        ]
+      },
+      {
+        "pergunta": "Caldeira funciona corretamente?",
+        "opcoes": [
+          "Sim",
+          "Não liga",
+          "Funciona mas mal",
+          "Não testada"
+        ]
+      },
+      {
+        "pergunta": "Sinais de fuga de gás/gasóleo?",
+        "opcoes": [
+          "Não",
+          "Cheiro",
+          "Manchas",
+          "Fuga ativa"
+        ]
+      },
+      {
+        "pergunta": "Vaso de expansão?",
+        "opcoes": [
+          "Funcional",
+          "Sem pressão",
+          "Com problemas",
+          "Ausente"
+        ]
+      },
+      {
+        "pergunta": "Válvula de segurança?",
+        "opcoes": [
+          "Funcional",
+          "Goteja",
+          "Bloqueada",
+          "Ausente"
+        ]
+      },
+      {
+        "pergunta": "Pressão do sistema?",
+        "opcoes": [
+          "1-2 bar (adequada)",
+          "<1 bar",
+          ">2 bar",
+          "Não verificada"
+        ]
+      },
+      {
+        "pergunta": "Purga de ar necessária?",
+        "opcoes": [
+          "Não",
+          "Sim",
+          "Já realizada"
+        ]
+      },
+      {
+        "pergunta": "Última manutenção realizada?",
+        "opcoes": [
+          "<6 meses",
+          "6-12 meses",
+          "1-2 anos",
+          ">2 anos",
+          "Nunca",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Contrato de manutenção?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Limpeza anual realizada?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Histórico de avarias?",
+        "opcoes": [
+          "Nenhuma",
+          "Poucas",
+          "Frequentes",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Radiadores funcionam uniformemente?",
+        "opcoes": [
+          "Sim, todos",
+          "Alguns frios",
+          "Muitos com problemas",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Número de radiadores?",
+        "opcoes": [
+          "[Valor numérico]",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Válvulas termostáticas nos radiadores?",
+        "opcoes": [
+          "Todas",
+          "Algumas",
+          "Nenhumas",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Piso radiante (se aplicável)?",
+        "opcoes": [
+          "Funcional",
+          "Zonas frias",
+          "Não funciona",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Tubagens isoladas?",
+        "opcoes": [
+          "Sim",
+          "Parcial",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Termostato instalado?",
+        "opcoes": [
+          "Sim, programável",
+          "Sim, manual",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Termostato funcional?",
+        "opcoes": [
+          "Sim",
+          "Com problemas",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Controlo por zonas?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Programação horária?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Tipo de sistema?",
+        "opcoes": [
+          "Central",
+          "Multi-split",
+          "Split individual",
+          "VRV",
+          "VRF",
+          "Portátil",
+          "Inexistente"
+        ]
+      },
+      {
+        "pergunta": "Número de unidades interiores?",
+        "opcoes": [
+          "0",
+          "1-2",
+          "3-5",
+          "6-10",
+          ">10"
+        ]
+      },
+      {
+        "pergunta": "Idade do sistema?",
+        "opcoes": [
+          "<5 anos",
+          "5-10 anos",
+          ">10 anos",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Potência total adequada?",
+        "opcoes": [
+          "Sim",
+          "Insuficiente",
+          "Excessiva",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Estado das unidades interiores?",
+        "opcoes": [
+          "Bom",
+          "Sujas",
+          "Ruidosas",
+          "Avariadas"
+        ]
+      },
+      {
+        "pergunta": "Filtros limpos?",
+        "opcoes": [
+          "Sim",
+          "Sujos",
+          "Muito sujos"
+        ]
+      },
+      {
+        "pergunta": "Condensação/drenagem normal?",
+        "opcoes": [
+          "Sim",
+          "Goteja",
+          "Entupida"
+        ]
+      },
+      {
+        "pergunta": "Unidades funcionam corretamente?",
+        "opcoes": [
+          "Todas",
+          "Maioria",
+          "Algumas",
+          "Nenhuma",
+          "Não testadas"
+        ]
+      },
+      {
+        "pergunta": "Nível de ruído?",
+        "opcoes": [
+          "Normal",
+          "Elevado",
+          "Muito elevado"
+        ]
+      },
+      {
+        "pergunta": "Número de unidades exteriores?",
+        "opcoes": [
+          "[Valor numérico]"
+        ]
+      },
+      {
+        "pergunta": "Localização das unidades exteriores?",
+        "opcoes": [
+          "Adequada",
+          "Exposta sol direto",
+          "Difícil acesso",
+          "Perigosa"
+        ]
+      },
+      {
+        "pergunta": "Estado das unidades exteriores?",
+        "opcoes": [
+          "Bom",
+          "Oxidação",
+          "Danos",
+          "Vegetação"
+        ]
+      },
+      {
+        "pergunta": "Fixação segura?",
+        "opcoes": [
+          "Sim",
+          "Vibrações",
+          "Solta",
+          "Perigosa"
+        ]
+      },
+      {
+        "pergunta": "Tubagens frigoríficas isoladas?",
+        "opcoes": [
+          "Sim",
+          "Parcial",
+          "Não",
+          "Deteriorado"
+        ]
+      },
+      {
+        "pergunta": "Última manutenção?",
+        "opcoes": [
+          "<1 ano",
+          "1-2 anos",
+          ">2 anos",
+          "Nunca",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Carga de gás adequada?",
+        "opcoes": [
+          "Sim",
+          "Provável fuga",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Contrato de manutenção?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Sistema de ventilação mecânica (VMC)?",
+        "opcoes": [
+          "Sim, central",
+          "Sim, individual",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Tipo de VMC?",
+        "opcoes": [
+          "Simples fluxo",
+          "Duplo fluxo",
+          "Higrorregulável",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Estado do sistema VMC?",
+        "opcoes": [
+          "Bom",
+          "Ruidoso",
+          "Avariado",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Extração nas casas de banho?",
+        "opcoes": [
+          "Funcional",
+          "Fraca",
+          "Não funciona",
+          "Inexistente"
+        ]
+      },
+      {
+        "pergunta": "Extração na cozinha?",
+        "opcoes": [
+          "Funcional",
+          "Fraca",
+          "Não funciona",
+          "Inexistente"
+        ]
+      },
+      {
+        "pergunta": "Grelhas de ventilação nas janelas?",
+        "opcoes": [
+          "Sim",
+          "Algumas",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Filtros VMC limpos?",
+        "opcoes": [
+          "Sim",
+          "Sujos",
+          "Muito sujos",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Certificado de instalação AVAC?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Livrete da caldeira?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Projeto AVAC disponível?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Inspeção periódica obrigatória?",
+        "opcoes": [
+          "Não aplicável",
+          "Em dia",
+          "Expirada",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Última manutenção do sistema?",
+        "opcoes": [
+          "Menos 6 meses",
+          "6-12 meses",
+          "Mais 1 ano",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Filtros do sistema limpos/substituídos?",
+        "opcoes": [
+          "Sim, recentemente",
+          "Necessita",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Termostatos programáveis?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Alguns"
+        ]
+      },
+      {
+        "pergunta": "Controlo por zonas?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Parcial"
+        ]
+      },
+      {
+        "pergunta": "Classe energética do sistema?",
+        "opcoes": [
+          "A+++",
+          "A++",
+          "A+",
+          "A",
+          "B",
+          "C ou inferior",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Sistema de ventilação mecânica?",
+        "opcoes": [
+          "Sim, VMC",
+          "Exaustores apenas",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Grelhas de ventilação desobstruídas?",
+        "opcoes": [
+          "Sim, todas",
+          "Algumas bloqueadas",
+          "Não verificado"
+        ]
+      },
+      {
+        "pergunta": "Isolamento adequado de condutas?",
+        "opcoes": [
+          "Sim",
+          "Parcial",
+          "Não",
+          "Não acessível"
+        ]
+      },
+      {
+        "pergunta": "Nível de ruído do sistema?",
+        "opcoes": [
+          "Silencioso",
+          "Aceitável",
+          "Ruidoso",
+          "Muito ruidoso"
+        ]
+      },
+      {
+        "pergunta": "Sistema de ar condicionado?",
+        "opcoes": [
+          "Central",
+          "Split",
+          "Portátil",
+          "Não"
+        ]
+      }
+    ]
+  },
+  {
+    "secao": "3D. Gas",
+    "campos": [
+      {
+        "pergunta": "Tipo de gás?",
+        "opcoes": [
+          "Natural (rede)",
+          "Propano (botija)",
+          "GPL (depósito)",
+          "Inexistente"
+        ]
+      },
+      {
+        "pergunta": "Certificação de gás válida?",
+        "opcoes": [
+          "Sim (<2 anos)",
+          "Expirada",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Projeto de gás disponível?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Estado geral da instalação?",
+        "opcoes": [
+          "Bom",
+          "Aceitável",
+          "Preocupante",
+          "Perigoso",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Contador de gás acessível?",
+        "opcoes": [
+          "Sim",
+          "Difícil",
+          "Não localizado",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Regulador de pressão?",
+        "opcoes": [
+          "Presente",
+          "Ausente",
+          "Desconhecido",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Válvula de corte geral identificada?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Válvula de corte funcional?",
+        "opcoes": [
+          "Sim",
+          "Dura",
+          "Bloqueada",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Ramal de entrada?",
+        "opcoes": [
+          "Aéreo",
+          "Enterrado",
+          "Não visível",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Material das tubagens?",
+        "opcoes": [
+          "Cobre",
+          "Aço",
+          "Multicamada",
+          "Misto",
+          "Desconhecido",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Tubagens fixadas corretamente?",
+        "opcoes": [
+          "Sim",
+          "Algumas soltas",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Tubagens protegidas?",
+        "opcoes": [
+          "Sim",
+          "Parcial",
+          "Expostas",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Estado das tubagens visíveis?",
+        "opcoes": [
+          "Bom",
+          "Oxidação",
+          "Corrosão",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Juntas e ligações?",
+        "opcoes": [
+          "Adequadas",
+          "Improvisadas",
+          "Fugas",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Ventilação em áreas com gás?",
+        "opcoes": [
+          "Adequada",
+          "Insuficiente",
+          "Bloqueada",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Caldeira a gás?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Esquentador a gás?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Fogão/placa a gás?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Outros aparelhos a gás?",
+        "opcoes": [
+          "Lareira",
+          "Salamandra",
+          "Forno",
+          "Nenhum",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Aparelhos certificados?",
+        "opcoes": [
+          "Sim",
+          "Desconhecido",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Chaminés/exaustão adequada?",
+        "opcoes": [
+          "Sim",
+          "Insuficiente",
+          "Bloqueada",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Detetor de gás instalado?",
+        "opcoes": [
+          "Sim, funcional",
+          "Sim, não testado",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Eletroválvula de segurança?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Cheiro a gás detetado?",
+        "opcoes": [
+          "Não",
+          "Sim, leve",
+          "Sim, forte",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Teste de estanquicidade realizado?",
+        "opcoes": [
+          "Sim, aprovado",
+          "Sim, com fugas",
+          "Não realizado",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Ventilação permanente?",
+        "opcoes": [
+          "Sim",
+          "Obstruída",
+          "Inexistente",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Distâncias de segurança respeitadas?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Localização da botija/depósito?",
+        "opcoes": [
+          "Exterior adequado",
+          "Interior (ilegal)",
+          "Enterrado",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Estado do depósito GPL?",
+        "opcoes": [
+          "Bom",
+          "Oxidação",
+          "Corrosão",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Válvulas e reguladores GPL?",
+        "opcoes": [
+          "Funcionais",
+          "Com fugas",
+          "Oxidados",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Inspeção periódica do depósito?",
+        "opcoes": [
+          "Em dia",
+          "Expirada",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Proteção do depósito?",
+        "opcoes": [
+          "Adequada",
+          "Insuficiente",
+          "Inexistente",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Termo de responsabilidade técnica?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Certificado de conformidade?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Relatório de inspeção?",
+        "opcoes": [
+          "Sim, recente",
+          "Antigo",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Necessidade de nova inspeção?",
+        "opcoes": [
+          "Não",
+          "Sim, programada",
+          "Sim, urgente",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Última inspeção de gás?",
+        "opcoes": [
+          "Menos 1 ano",
+          "1-2 anos",
+          "Mais 2 anos",
+          "Nunca",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Certificado de conformidade válido?",
+        "opcoes": [
+          "Sim",
+          "Expirado",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Detetor de gás instalado?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Válvula de corte de emergência acessível?",
+        "opcoes": [
+          "Sim",
+          "Difícil acesso",
+          "Não identificada"
+        ]
+      },
+      {
+        "pergunta": "Sinalização de segurança presente?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Parcial"
+        ]
+      },
+      {
+        "pergunta": "Contrato de manutenção ativo?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Ventilação adequada em áreas com gás?",
+        "opcoes": [
+          "Sim",
+          "Insuficiente",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Instalação aparenta ser recente?",
+        "opcoes": [
+          "Sim (<5 anos)",
+          "5-15 anos",
+          ">15 anos",
+          "Muito antiga"
+        ]
+      }
+    ]
+  },
+  {
+    "secao": "3E. Ensaios",
+    "campos": [
+      {
+        "pergunta": "Ensaio de pressão da rede de água realizado?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Resultado do ensaio de pressão?",
+        "opcoes": [
+          "Conforme (>2 bar)",
+          "Pressão baixa (1-2 bar)",
+          "Insuficiente (<1 bar)",
+          "Não realizado"
+        ]
+      },
+      {
+        "pergunta": "Teste de estanquidade realizado?",
+        "opcoes": [
+          "Sim, sem fugas",
+          "Sim, com fugas menores",
+          "Sim, com fugas significativas",
+          "Não realizado"
+        ]
+      },
+      {
+        "pergunta": "Duração do teste de estanquidade?",
+        "opcoes": [
+          "24 horas",
+          "12 horas",
+          "Menos de 12 horas",
+          "Não realizado"
+        ]
+      },
+      {
+        "pergunta": "Queda de pressão durante o teste?",
+        "opcoes": [
+          "Nenhuma",
+          "Mínima (<5%)",
+          "Moderada (5-10%)",
+          "Significativa (>10%)"
+        ]
+      },
+      {
+        "pergunta": "Qualidade da água testada?",
+        "opcoes": [
+          "Sim, potável",
+          "Sim, não potável",
+          "Não testada"
+        ]
+      },
+      {
+        "pergunta": "Fluxo adequado em todas as torneiras?",
+        "opcoes": [
+          "Sim, todas",
+          "Maioria",
+          "Algumas fracas",
+          "Geral insuficiente"
+        ]
+      },
+      {
+        "pergunta": "Teste de escoamento realizado?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Escoamento em todos os pontos?",
+        "opcoes": [
+          "Rápido em todos",
+          "Lento em alguns",
+          "Muito lento",
+          "Bloqueado"
+        ]
+      },
+      {
+        "pergunta": "Teste de fumo/corante realizado?",
+        "opcoes": [
+          "Sim, sem problemas",
+          "Sim, com infiltrações",
+          "Não realizado"
+        ]
+      },
+      {
+        "pergunta": "Inspeção por câmara CCTV?",
+        "opcoes": [
+          "Sim, sem problemas",
+          "Sim, com danos",
+          "Não realizada"
+        ]
+      },
+      {
+        "pergunta": "Declives das tubagens adequados?",
+        "opcoes": [
+          "Sim",
+          "Alguns insuficientes",
+          "Inadequados",
+          "Não verificado"
+        ]
+      },
+      {
+        "pergunta": "Caixas de gordura limpas e funcionais?",
+        "opcoes": [
+          "Sim",
+          "Necessitam limpeza",
+          "Danificadas",
+          "Não existem"
+        ]
+      },
+      {
+        "pergunta": "Ventilação da rede de esgotos?",
+        "opcoes": [
+          "Adequada",
+          "Insuficiente",
+          "Inexistente",
+          "Não verificado"
+        ]
+      },
+      {
+        "pergunta": "Medição da resistência de terra realizada?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Valor da resistência de terra?",
+        "opcoes": [
+          "<30Ω Excelente",
+          "30-50Ω Bom",
+          "50-100Ω Aceitável",
+          ">100Ω Inadequado",
+          "Não medido"
+        ]
+      },
+      {
+        "pergunta": "Teste de diferencial realizado?",
+        "opcoes": [
+          "Sim, funciona",
+          "Sim, com atraso",
+          "Falha",
+          "Não realizado"
+        ]
+      },
+      {
+        "pergunta": "Tempo de disparo do diferencial?",
+        "opcoes": [
+          "<30ms Excelente",
+          "30-40ms Bom",
+          ">40ms Inadequado",
+          "Não medido"
+        ]
+      },
+      {
+        "pergunta": "Teste de continuidade dos circuitos?",
+        "opcoes": [
+          "Todos conformes",
+          "Alguns com problemas",
+          "Vários com problemas",
+          "Não realizado"
+        ]
+      },
+      {
+        "pergunta": "Isolamento entre fases?",
+        "opcoes": [
+          ">1MΩ Bom",
+          "0.5-1MΩ Aceitável",
+          "<0.5MΩ Inadequado",
+          "Não medido"
+        ]
+      },
+      {
+        "pergunta": "Teste de polaridade?",
+        "opcoes": [
+          "Correto",
+          "Invertido em alguns pontos",
+          "Não testado"
+        ]
+      },
+      {
+        "pergunta": "Medição de tensão de alimentação?",
+        "opcoes": [
+          "220-240V Normal",
+          "210-220V Baixa",
+          "<210V Muito baixa",
+          "Não medida"
+        ]
+      },
+      {
+        "pergunta": "Teste de carga dos circuitos?",
+        "opcoes": [
+          "Todos suportam carga",
+          "Alguns sobrecarregados",
+          "Não testado"
+        ]
+      },
+      {
+        "pergunta": "Certificação ITED presente?",
+        "opcoes": [
+          "Sim, válida",
+          "Sim, expirada",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Caixa de entrada de telecomunicações (CET)?",
+        "opcoes": [
+          "Presente e acessível",
+          "Presente e bloqueada",
+          "Não existe",
+          "Não conforme"
+        ]
+      },
+      {
+        "pergunta": "Quadro de telecomunicações (QT)?",
+        "opcoes": [
+          "Presente e organizado",
+          "Presente e desorganizado",
+          "Não existe",
+          "Não conforme"
+        ]
+      },
+      {
+        "pergunta": "Número de PAT (Pontos de Acesso Terminal)?",
+        "opcoes": [
+          "[Número]",
+          "Insuficiente",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Cablagem estruturada Cat6 ou superior?",
+        "opcoes": [
+          "Sim, Cat6A",
+          "Sim, Cat6",
+          "Cat5e",
+          "Inferior",
+          "Inexistente"
+        ]
+      },
+      {
+        "pergunta": "Teste de certificação de rede realizado?",
+        "opcoes": [
+          "Sim, todos os pontos",
+          "Parcialmente",
+          "Não realizado"
+        ]
+      },
+      {
+        "pergunta": "Cobertura de fibra óptica?",
+        "opcoes": [
+          "Até ao apartamento (FTTH)",
+          "Até ao edifício (FTTB)",
+          "Não disponível"
+        ]
+      },
+      {
+        "pergunta": "Tomadas RJ45 funcionais?",
+        "opcoes": [
+          "Todas",
+          "Maioria",
+          "Algumas",
+          "Não testadas"
+        ]
+      },
+      {
+        "pergunta": "Cobertura de sinal móvel no interior?",
+        "opcoes": [
+          "Excelente",
+          "Boa",
+          "Fraca",
+          "Inexistente"
+        ]
+      },
+      {
+        "pergunta": "Termografia realizada?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Pontes térmicas identificadas?",
+        "opcoes": [
+          "Nenhuma",
+          "Poucas",
+          "Várias",
+          "Críticas",
+          "Não testado"
+        ]
+      },
+      {
+        "pergunta": "Teste de humidade com higrómetro?",
+        "opcoes": [
+          "Sim, valores normais",
+          "Sim, humidade elevada",
+          "Não realizado"
+        ]
+      },
+      {
+        "pergunta": "Teste de qualidade do ar interior?",
+        "opcoes": [
+          "Realizado, conforme",
+          "Realizado, não conforme",
+          "Não realizado"
+        ]
+      },
+      {
+        "pergunta": "Medição de ruído ambiente?",
+        "opcoes": [
+          "Dentro dos limites",
+          "Acima dos limites",
+          "Não medido"
+        ]
+      },
+      {
+        "pergunta": "Teste de radão realizado?",
+        "opcoes": [
+          "Sim, níveis seguros",
+          "Sim, níveis elevados",
+          "Não realizado",
+          "Não aplicável"
+        ]
+      }
+    ]
+  },
+  {
+    "secao": "4A. Cozinha",
+    "campos": [
+      {
+        "pergunta": "Número de cozinhas?",
+        "opcoes": [
+          "1",
+          "2",
+          "Kitchenette",
+          "Copa",
+          "Inexistente"
+        ]
+      },
+      {
+        "pergunta": "Tipologia?",
+        "opcoes": [
+          "Equipada",
+          "Semi-equipada",
+          "Não equipada"
+        ]
+      },
+      {
+        "pergunta": "Estado geral?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Aceitável",
+          "Necessita renovação",
+          "Crítico"
+        ]
+      },
+      {
+        "pergunta": "Área aproximada (m²)?",
+        "opcoes": [
+          "[Valor numérico]"
+        ]
+      },
+      {
+        "pergunta": "Layout?",
+        "opcoes": [
+          "Linear",
+          "L",
+          "U",
+          "Ilha",
+          "Península",
+          "Outro"
+        ]
+      },
+      {
+        "pergunta": "Última renovação?",
+        "opcoes": [
+          "<5 anos",
+          "5-10 anos",
+          "10-20 anos",
+          ">20 anos",
+          "Original",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Integrada ou separada?",
+        "opcoes": [
+          "Separada",
+          "Open space com sala",
+          "Integrada parcial"
+        ]
+      },
+      {
+        "pergunta": "Material dos móveis?",
+        "opcoes": [
+          "Madeira maciça",
+          "MDF lacado",
+          "Melamina",
+          "Laminado",
+          "Outro"
+        ]
+      },
+      {
+        "pergunta": "Estado armários superiores?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Portas desalinhadas",
+          "Dobradiças gastas",
+          "Danos"
+        ]
+      },
+      {
+        "pergunta": "Estado armários inferiores?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Gavetas presas",
+          "Dobradiças gastas",
+          "Danos"
+        ]
+      },
+      {
+        "pergunta": "Sistema de abertura?",
+        "opcoes": [
+          "Puxadores",
+          "Push",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Ferragens?",
+        "opcoes": [
+          "Bom estado",
+          "Oxidadas",
+          "Partidas",
+          "Necessitam substituição"
+        ]
+      },
+      {
+        "pergunta": "Interior dos armários?",
+        "opcoes": [
+          "Limpo",
+          "Manchas",
+          "Humidade",
+          "Mofo"
+        ]
+      },
+      {
+        "pergunta": "Rodapé da cozinha?",
+        "opcoes": [
+          "Presente",
+          "Deteriorado",
+          "Ausente"
+        ]
+      },
+      {
+        "pergunta": "Material da bancada?",
+        "opcoes": [
+          "Granito",
+          "Mármore",
+          "Quartzo",
+          "Silestone",
+          "Madeira",
+          "Laminado",
+          "Inox",
+          "Outro"
+        ]
+      },
+      {
+        "pergunta": "Estado da bancada?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Manchas",
+          "Riscos profundos",
+          "Fissuras",
+          "Queimaduras"
+        ]
+      },
+      {
+        "pergunta": "Espessura da bancada?",
+        "opcoes": [
+          "20mm",
+          "30mm",
+          "40mm",
+          "Outra"
+        ]
+      },
+      {
+        "pergunta": "Vedação parede/bancada?",
+        "opcoes": [
+          "Boa",
+          "Silicone deteriorado",
+          "Infiltração",
+          "Ausente"
+        ]
+      },
+      {
+        "pergunta": "Salpicos/proteção parede?",
+        "opcoes": [
+          "Azulejo",
+          "Vidro",
+          "Inox",
+          "Igual bancada",
+          "Ausente"
+        ]
+      },
+      {
+        "pergunta": "Estado dos salpicos?",
+        "opcoes": [
+          "Bom",
+          "Manchas",
+          "Partido",
+          "Destacado"
+        ]
+      },
+      {
+        "pergunta": "Tipo de lava-louça?",
+        "opcoes": [
+          "Encastre",
+          "Sobrepor",
+          "Inox",
+          "Granito",
+          "Cerâmica"
+        ]
+      },
+      {
+        "pergunta": "Número de cubas?",
+        "opcoes": [
+          "1",
+          "1.5",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "pergunta": "Estado do lava-louça?",
+        "opcoes": [
+          "Bom",
+          "Manchas",
+          "Riscos",
+          "Furos",
+          "Vedação má"
+        ]
+      },
+      {
+        "pergunta": "Escorredor?",
+        "opcoes": [
+          "Integrado",
+          "Separado",
+          "Ausente"
+        ]
+      },
+      {
+        "pergunta": "Escoamento?",
+        "opcoes": [
+          "Rápido",
+          "Lento",
+          "Muito lento",
+          "Entupido"
+        ]
+      },
+      {
+        "pergunta": "Tipo de torneira?",
+        "opcoes": [
+          "Monocomando",
+          "Bicos separados",
+          "Extraível",
+          "Sensor"
+        ]
+      },
+      {
+        "pergunta": "Estado da torneira?",
+        "opcoes": [
+          "Excelente",
+          "Funcional",
+          "Goteja",
+          "Dura",
+          "Oxidada",
+          "Avariada"
+        ]
+      },
+      {
+        "pergunta": "Pressão de água?",
+        "opcoes": [
+          "Ótima",
+          "Boa",
+          "Fraca",
+          "Muito fraca"
+        ]
+      },
+      {
+        "pergunta": "Água quente disponível?",
+        "opcoes": [
+          "Sim, rápida",
+          "Sim, demora",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Placa/fogão incluído?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Tipo de placa?",
+        "opcoes": [
+          "Gás",
+          "Elétrica",
+          "Indução",
+          "Vitrocerâmica",
+          "Mista",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Número de bicos/zonas?",
+        "opcoes": [
+          "3",
+          "4",
+          "5",
+          "6+",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Estado da placa?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Riscos",
+          "Não funciona",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Acendimento funcional?",
+        "opcoes": [
+          "Sim",
+          "Alguns falhados",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Forno incluído?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Tipo de forno?",
+        "opcoes": [
+          "Elétrico",
+          "Gás",
+          "Micro-ondas combinado",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Posição do forno?",
+        "opcoes": [
+          "Coluna",
+          "Sob placa",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Forno funcional?",
+        "opcoes": [
+          "Sim",
+          "Não testado",
+          "Não funciona",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Limpeza do forno?",
+        "opcoes": [
+          "Pirolítico",
+          "Catalítico",
+          "Manual",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Exaustor incluído?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Tipo de exaustor?",
+        "opcoes": [
+          "Saída exterior",
+          "Recirculação",
+          "Desconhecido",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Modelo do exaustor?",
+        "opcoes": [
+          "Encastre",
+          "Decorativo",
+          "Ilha",
+          "Downdraft",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Exaustor funcional?",
+        "opcoes": [
+          "Sim, eficaz",
+          "Fraco",
+          "Ruidoso",
+          "Não funciona",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Filtros limpos?",
+        "opcoes": [
+          "Sim",
+          "Sujos",
+          "Muito sujos",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Iluminação do exaustor?",
+        "opcoes": [
+          "Funcional",
+          "LED",
+          "Não funciona",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Frigorífico incluído?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Tipo de frigorífico?",
+        "opcoes": [
+          "Encastre",
+          "Livre",
+          "Americano",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Frigorífico funcional?",
+        "opcoes": [
+          "Sim",
+          "Ruidoso",
+          "Não arrefece",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Máquina lavar louça incluída?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Máquina louça funcional?",
+        "opcoes": [
+          "Sim",
+          "Não testada",
+          "Não funciona",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Fugas na máquina louça?",
+        "opcoes": [
+          "Não",
+          "Leve",
+          "Ativa",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Micro-ondas incluído?",
+        "opcoes": [
+          "Sim, encastre",
+          "Sim, livre",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Outros eletrodomésticos?",
+        "opcoes": [
+          "Máquina café",
+          "Termomixer",
+          "Nenhum"
+        ]
+      },
+      {
+        "pergunta": "Pavimento da cozinha?",
+        "opcoes": [
+          "Cerâmica",
+          "Vinílico",
+          "Mármore",
+          "Madeira",
+          "Outro"
+        ]
+      },
+      {
+        "pergunta": "Estado do pavimento?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Manchas",
+          "Partido",
+          "Desnivelado"
+        ]
+      },
+      {
+        "pergunta": "Azulejos nas paredes?",
+        "opcoes": [
+          "Completo",
+          "Parcial",
+          "Ausente"
+        ]
+      },
+      {
+        "pergunta": "Estado dos azulejos?",
+        "opcoes": [
+          "Bom",
+          "Manchas",
+          "Partidos",
+          "Soltos"
+        ]
+      },
+      {
+        "pergunta": "Teto da cozinha?",
+        "opcoes": [
+          "Reboco",
+          "Gesso",
+          "Teto falso",
+          "Outro"
+        ]
+      },
+      {
+        "pergunta": "Estado do teto?",
+        "opcoes": [
+          "Bom",
+          "Manchas",
+          "Fissuras",
+          "Humidade"
+        ]
+      },
+      {
+        "pergunta": "Tomadas elétricas suficientes?",
+        "opcoes": [
+          "Sim",
+          "Insuficientes",
+          "Uso extensões"
+        ]
+      },
+      {
+        "pergunta": "Iluminação adequada?",
+        "opcoes": [
+          "Sim",
+          "Insuficiente",
+          "Demasiada"
+        ]
+      },
+      {
+        "pergunta": "Tipo de iluminação?",
+        "opcoes": [
+          "LED",
+          "Fluorescente",
+          "Incandescente",
+          "Halogéneo",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Janela na cozinha?",
+        "opcoes": [
+          "Sim, grande",
+          "Sim, pequena",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Ventilação natural?",
+        "opcoes": [
+          "Boa",
+          "Aceitável",
+          "Insuficiente",
+          "Inexistente"
+        ]
+      },
+      {
+        "pergunta": "Aquecimento na cozinha?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Manta anti-fogo?",
+        "opcoes": [
+          "Presente",
+          "Ausente"
+        ]
+      },
+      {
+        "pergunta": "Extintor na cozinha?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Válvula corte gás acessível?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Espaço de armazenamento?",
+        "opcoes": [
+          "Abundante",
+          "Suficiente",
+          "Insuficiente"
+        ]
+      },
+      {
+        "pergunta": "Zona de refeições?",
+        "opcoes": [
+          "Sim, mesa",
+          "Sim, bancada",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Despensa?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Frigorífico funcional?",
+        "opcoes": [
+          "Sim",
+          "Com problemas",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Máquina de lavar louça?",
+        "opcoes": [
+          "Sim, funcional",
+          "Sim, com problemas",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Forno/Micro-ondas funcional?",
+        "opcoes": [
+          "Sim",
+          "Com problemas",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Exaustor/Coifa funcional?",
+        "opcoes": [
+          "Sim",
+          "Ruidoso",
+          "Não extrai",
+          "Não existe"
+        ]
+      },
+      {
+        "pergunta": "Material do pavimento?",
+        "opcoes": [
+          "Cerâmica",
+          "Madeira",
+          "Vinílico",
+          "Pedra",
+          "Outro"
+        ]
+      },
+      {
+        "pergunta": "Estado do pavimento?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Desgastado",
+          "Danificado"
+        ]
+      },
+      {
+        "pergunta": "Iluminação adequada?",
+        "opcoes": [
+          "Sim",
+          "Insuficiente",
+          "Excessiva"
+        ]
+      },
+      {
+        "pergunta": "Iluminação de tarefa (área trabalho)?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Insuficiente"
+        ]
+      },
+      {
+        "pergunta": "Capacidade de armazenamento?",
+        "opcoes": [
+          "Excelente",
+          "Adequada",
+          "Insuficiente"
+        ]
+      },
+      {
+        "pergunta": "Ventilação natural adequada?",
+        "opcoes": [
+          "Sim",
+          "Insuficiente",
+          "Não"
+        ]
+      }
+    ]
+  },
+  {
+    "secao": "4B. WCs",
+    "campos": [
+      {
+        "pergunta": "Número total de WCs?",
+        "opcoes": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5+"
+        ]
+      },
+      {
+        "pergunta": "WCs completos (com banheira/duche)?",
+        "opcoes": [
+          "1",
+          "2",
+          "3",
+          "4+"
+        ]
+      },
+      {
+        "pergunta": "Lavabos (só sanita e lavatório)?",
+        "opcoes": [
+          "0",
+          "1",
+          "2+"
+        ]
+      },
+      {
+        "pergunta": "WC de serviço?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "WC suite principal?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "WCs suites secundários?",
+        "opcoes": [
+          "0",
+          "1",
+          "2",
+          "3+"
+        ]
+      },
+      {
+        "pergunta": "Estado geral dos WCs?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Aceitável",
+          "Necessita renovação",
+          "Crítico"
+        ]
+      },
+      {
+        "pergunta": "Última renovação?",
+        "opcoes": [
+          "<5 anos",
+          "5-10 anos",
+          "10-20 anos",
+          ">20 anos",
+          "Original"
+        ]
+      },
+      {
+        "pergunta": "Azulejos paredes - cobertura?",
+        "opcoes": [
+          "Teto",
+          "Meia altura",
+          "Zonas húmidas",
+          "Parcial"
+        ]
+      },
+      {
+        "pergunta": "Estado dos azulejos paredes?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Manchas",
+          "Soltos",
+          "Partidos",
+          "Mofo"
+        ]
+      },
+      {
+        "pergunta": "Tipo de juntas?",
+        "opcoes": [
+          "Epóxi",
+          "Cimento",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Estado das juntas?",
+        "opcoes": [
+          "Bom",
+          "Escuras",
+          "Mofo",
+          "Falta rejunte",
+          "Fissuras"
+        ]
+      },
+      {
+        "pergunta": "Pavimento?",
+        "opcoes": [
+          "Cerâmica",
+          "Mármore",
+          "Vinílico",
+          "Aquecido",
+          "Outro"
+        ]
+      },
+      {
+        "pergunta": "Estado do pavimento?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Manchas",
+          "Partido",
+          "Desnível"
+        ]
+      },
+      {
+        "pergunta": "Tetos?",
+        "opcoes": [
+          "Reboco",
+          "Gesso",
+          "Teto falso",
+          "PVC"
+        ]
+      },
+      {
+        "pergunta": "Estado dos tetos?",
+        "opcoes": [
+          "Bom",
+          "Manchas",
+          "Mofo",
+          "Descascado",
+          "Humidade ativa"
+        ]
+      },
+      {
+        "pergunta": "Sinais de infiltração?",
+        "opcoes": [
+          "Não",
+          "Manchas antigas",
+          "Manchas recentes",
+          "Infiltração ativa"
+        ]
+      },
+      {
+        "pergunta": "Origem provável infiltração?",
+        "opcoes": [
+          "Não aplicável",
+          "Duche",
+          "Banheira",
+          "Canos",
+          "Teto",
+          "Parede exterior",
+          "Desconhecida"
+        ]
+      },
+      {
+        "pergunta": "Mofo visível?",
+        "opcoes": [
+          "Não",
+          "Leve",
+          "Moderado",
+          "Extenso"
+        ]
+      },
+      {
+        "pergunta": "Localização do mofo?",
+        "opcoes": [
+          "N",
+          "A",
+          "Juntas",
+          "Cantos",
+          "Teto",
+          "Silicones",
+          "Generalizado"
+        ]
+      },
+      {
+        "pergunta": "Condensação excessiva?",
+        "opcoes": [
+          "Não",
+          "Leve",
+          "Moderada",
+          "Grave"
+        ]
+      },
+      {
+        "pergunta": "Cheiro a humidade/mofo?",
+        "opcoes": [
+          "Não",
+          "Leve",
+          "Forte"
+        ]
+      },
+      {
+        "pergunta": "Tipo de sanita?",
+        "opcoes": [
+          "Chão",
+          "Suspensa",
+          "Com bidet",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Estado da sanita?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Manchas",
+          "Fissuras",
+          "Oscila"
+        ]
+      },
+      {
+        "pergunta": "Fixação da sanita?",
+        "opcoes": [
+          "Firme",
+          "Ligeira oscilação",
+          "Muito solta",
+          "Fuga na base"
+        ]
+      },
+      {
+        "pergunta": "Tipo de descarga?",
+        "opcoes": [
+          "Embutida",
+          "Externa",
+          "Dupla",
+          "Simples",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Descarga funcional?",
+        "opcoes": [
+          "Sim",
+          "Fuga contínua",
+          "Difícil acionar",
+          "Não funciona"
+        ]
+      },
+      {
+        "pergunta": "Tampa da sanita?",
+        "opcoes": [
+          "Presente",
+          "Danificada",
+          "Ausente"
+        ]
+      },
+      {
+        "pergunta": "WC2 - Estado sanita?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Aceitável",
+          "Mau",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "WC2 - Descarga funcional?",
+        "opcoes": [
+          "Sim",
+          "Com problemas",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "WC3+ - Sanitas adicionais OK?",
+        "opcoes": [
+          "Sim, todas",
+          "Algumas com problemas",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Tipo de lavatório?",
+        "opcoes": [
+          "Coluna",
+          "Encastre",
+          "Suspenso",
+          "Bancada",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Estado do lavatório?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Manchas",
+          "Fissuras",
+          "Fixação solta"
+        ]
+      },
+      {
+        "pergunta": "Material?",
+        "opcoes": [
+          "Cerâmica",
+          "Mármore",
+          "Resina",
+          "Inox",
+          "Outro",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Móvel sob lavatório?",
+        "opcoes": [
+          "Sim, bom",
+          "Sim, deteriorado",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Sifão visível?",
+        "opcoes": [
+          "Não",
+          "Sim, bom estado",
+          "Sim, oxidado",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Tipo de torneiras lavatório?",
+        "opcoes": [
+          "Monocomando",
+          "Bicos separados",
+          "Sensor",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Estado das torneiras?",
+        "opcoes": [
+          "Excelente",
+          "Funcional",
+          "Gotejam",
+          "Oxidadas",
+          "Duras",
+          "Avariadas"
+        ]
+      },
+      {
+        "pergunta": "Água quente nos lavatórios?",
+        "opcoes": [
+          "Sim, rápida",
+          "Sim, demora",
+          "Não",
+          "Instável"
+        ]
+      },
+      {
+        "pergunta": "Pressão adequada?",
+        "opcoes": [
+          "Sim",
+          "Fraca",
+          "Excessiva"
+        ]
+      },
+      {
+        "pergunta": "Torneiras duche/banheira?",
+        "opcoes": [
+          "Monocomando",
+          "Termostática",
+          "Bicos separados",
+          "Chuveiro teto",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Estado torneiras duche?",
+        "opcoes": [
+          "Excelente",
+          "Funcional",
+          "Gotejam",
+          "Oxidadas",
+          "Avariadas",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Temperatura água duche?",
+        "opcoes": [
+          "Estável",
+          "Instável",
+          "Só fria",
+          "Só quente",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Número de duches?",
+        "opcoes": [
+          "0",
+          "1",
+          "2",
+          "3+"
+        ]
+      },
+      {
+        "pergunta": "Tipo de base de duche?",
+        "opcoes": [
+          "Resguardo obra",
+          "Base acrílico",
+          "Pedra",
+          "Rés-chão",
+          "Misto",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Estado da base?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Manchas",
+          "Fissuras",
+          "Amarelecida",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Resguardo/cabine?",
+        "opcoes": [
+          "Vidro fixo",
+          "Vidro porta",
+          "Cortina",
+          "Sem resguardo",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Estado do resguardo?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Calcário",
+          "Vedação má",
+          "Partido",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Tipo de vidro?",
+        "opcoes": [
+          "Temperado",
+          "Acrílico",
+          "Desconhecido",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Dobradiças/perfis?",
+        "opcoes": [
+          "Inox",
+          "Cromado",
+          "Alumínio",
+          "Oxidados",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Escoamento?",
+        "opcoes": [
+          "Rápido",
+          "Lento",
+          "Muito lento",
+          "Inundação",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Ralo/sifão?",
+        "opcoes": [
+          "Bom estado",
+          "Entupido",
+          "Cheiros",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Vedação/silicones?",
+        "opcoes": [
+          "Bom",
+          "Mofo",
+          "Destacados",
+          "Ausente",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Banheira presente?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Tipo de banheira?",
+        "opcoes": [
+          "Acrílico",
+          "Ferro fundido",
+          "Hidromassagem",
+          "Encastrada",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Estado da banheira?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Manchas",
+          "Esmalte danificado",
+          "Fissuras",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Vedação banheira/parede?",
+        "opcoes": [
+          "Boa",
+          "Silicone com mofo",
+          "Destacado",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Hidromassagem funcional?",
+        "opcoes": [
+          "Sim",
+          "Não funciona",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Escoamento?",
+        "opcoes": [
+          "Rápido",
+          "Lento",
+          "Entupido",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Bidé presente?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Estado do bidé?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Manchas",
+          "Fissuras",
+          "Oscila",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Torneira funcional?",
+        "opcoes": [
+          "Sim",
+          "Goteja",
+          "Avariada",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Móveis de casa de banho?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Estado dos móveis?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Humidade",
+          "Inchados",
+          "Ferragens danificadas",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Espelho(s)?",
+        "opcoes": [
+          "Sim, bom",
+          "Sim, manchado",
+          "Sim, partido",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Iluminação espelho?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Armário espelho?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Prateleiras/nichos?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Toalheiros?",
+        "opcoes": [
+          "Presente",
+          "Soltos",
+          "Oxidados",
+          "Ausente"
+        ]
+      },
+      {
+        "pergunta": "Porta-rolos?",
+        "opcoes": [
+          "Presente",
+          "Soltos",
+          "Oxidados",
+          "Ausente"
+        ]
+      },
+      {
+        "pergunta": "Porta-escovas?",
+        "opcoes": [
+          "Presente",
+          "Ausente"
+        ]
+      },
+      {
+        "pergunta": "Saboneteira/dispensador?",
+        "opcoes": [
+          "Presente",
+          "Ausente"
+        ]
+      },
+      {
+        "pergunta": "Barras de apoio?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Janela?",
+        "opcoes": [
+          "Sim, grande",
+          "Sim, pequena",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Ventilação natural?",
+        "opcoes": [
+          "Boa",
+          "Insuficiente",
+          "Inexistente"
+        ]
+      },
+      {
+        "pergunta": "Exaustor mecânico?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Exaustor funcional?",
+        "opcoes": [
+          "Sim, eficaz",
+          "Fraco",
+          "Ruidoso",
+          "Não funciona",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Grelhas de ventilação?",
+        "opcoes": [
+          "Sim",
+          "Bloqueadas",
+          "Ausente"
+        ]
+      },
+      {
+        "pergunta": "Iluminação natural?",
+        "opcoes": [
+          "Excelente",
+          "Boa",
+          "Insuficiente",
+          "Inexistente"
+        ]
+      },
+      {
+        "pergunta": "Iluminação artificial adequada?",
+        "opcoes": [
+          "Sim",
+          "Insuficiente",
+          "Excessiva"
+        ]
+      },
+      {
+        "pergunta": "Tipo de luminárias?",
+        "opcoes": [
+          "LED",
+          "Halogéneo",
+          "Fluorescente",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "IP adequado (proteção água)?",
+        "opcoes": [
+          "Sim",
+          "Desconhecido",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Aquecimento no WC?",
+        "opcoes": [
+          "Toalheiro elétrico",
+          "Toalheiro água",
+          "Piso radiante",
+          "AC",
+          "Não",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Estado do aquecimento?",
+        "opcoes": [
+          "Funcional",
+          "Não funciona",
+          "Oxidado",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Tomadas com proteção IP?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Interruptor fora do WC?",
+        "opcoes": [
+          "Sim",
+          "Dentro",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Pavimento antiderrapante?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Acessível PCDs?",
+        "opcoes": [
+          "Sim",
+          "Parcial",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Espaço de manobra adequado?",
+        "opcoes": [
+          "Sim",
+          "Insuficiente"
+        ]
+      },
+      {
+        "pergunta": "Barras de apoio instaladas?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "WC adaptado para mobilidade reduzida?",
+        "opcoes": [
+          "Sim",
+          "Parcialmente",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Barras de apoio instaladas?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Necessário"
+        ]
+      },
+      {
+        "pergunta": "Toalheiro aquecido?",
+        "opcoes": [
+          "Sim, funcional",
+          "Sim, avariado",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Estado dos espelhos?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Manchados",
+          "Danificados"
+        ]
+      },
+      {
+        "pergunta": "Capacidade de armazenamento?",
+        "opcoes": [
+          "Adequada",
+          "Insuficiente",
+          "Excessiva"
+        ]
+      },
+      {
+        "pergunta": "Pavimento antiderrapante?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Parcial"
+        ]
+      },
+      {
+        "pergunta": "Iluminação adequada e funcional?",
+        "opcoes": [
+          "Sim",
+          "Insuficiente",
+          "Algumas avariadas"
+        ]
+      },
+      {
+        "pergunta": "Fechadura funcional?",
+        "opcoes": [
+          "Sim",
+          "Com problemas",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Sistema de extração de ar?",
+        "opcoes": [
+          "Janela",
+          "Exaustor mecânico",
+          "Ambos",
+          "Nenhum"
+        ]
+      },
+      {
+        "pergunta": "Estado geral de limpeza/manutenção?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Necessita atenção",
+          "Negligenciado"
+        ]
+      }
+    ]
+  },
+  {
+    "secao": "4C. Quartos_Salas",
+    "campos": [
+      {
+        "pergunta": "Número de quartos?",
+        "opcoes": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6+"
+        ]
+      },
+      {
+        "pergunta": "Quartos com suite?",
+        "opcoes": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4+"
+        ]
+      },
+      {
+        "pergunta": "Suite principal?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Área média quartos?",
+        "opcoes": [
+          "Amplos (>15m²)",
+          "Médios (10-15m²)",
+          "Pequenos (<10m²)",
+          "Variável"
+        ]
+      },
+      {
+        "pergunta": "Estado geral quartos?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Aceitável",
+          "Necessita renovação"
+        ]
+      },
+      {
+        "pergunta": "Pé-direito quartos?",
+        "opcoes": [
+          "Alto (>3m)",
+          "Normal (2.6-3m)",
+          "Baixo (<2.6m)"
+        ]
+      },
+      {
+        "pergunta": "Pavimento quartos?",
+        "opcoes": [
+          "Madeira",
+          "Flutuante",
+          "Cerâmica",
+          "Vinílico",
+          "Alcatifa",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Estado pavimento?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Desgaste",
+          "Riscos",
+          "Manchas",
+          "Desnível"
+        ]
+      },
+      {
+        "pergunta": "Paredes quartos?",
+        "opcoes": [
+          "Pintura",
+          "Papel parede",
+          "Gesso",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Estado das paredes?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Manchas",
+          "Fissuras",
+          "Humidade",
+          "Mofo"
+        ]
+      },
+      {
+        "pergunta": "Tetos quartos?",
+        "opcoes": [
+          "Reboco liso",
+          "Gesso",
+          "Teto falso",
+          "Estuque"
+        ]
+      },
+      {
+        "pergunta": "Estado dos tetos?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Manchas",
+          "Fissuras",
+          "Humidade"
+        ]
+      },
+      {
+        "pergunta": "Rodapés?",
+        "opcoes": [
+          "Presente",
+          "Deteriorado",
+          "Ausente",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Cornijas/sancas?",
+        "opcoes": [
+          "Presente",
+          "Ausente"
+        ]
+      },
+      {
+        "pergunta": "Roupeiros embutidos?",
+        "opcoes": [
+          "Todos os quartos",
+          "Alguns",
+          "Quarto principal",
+          "Nenhum"
+        ]
+      },
+      {
+        "pergunta": "Tipo de frente roupeiros?",
+        "opcoes": [
+          "Portas batentes",
+          "Portas correr",
+          "Cortinas",
+          "Misto",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Material frentes?",
+        "opcoes": [
+          "Madeira",
+          "Melamina",
+          "Espelho",
+          "Lacado",
+          "Misto",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Estado dos roupeiros?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Portas desalinhadas",
+          "Ferragens gastas",
+          "Deteriorados",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Interior roupeiros?",
+        "opcoes": [
+          "Organizado",
+          "Prateleiras",
+          "Gavetas",
+          "Varões",
+          "Básico",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Iluminação interior?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Profundidade adequada?",
+        "opcoes": [
+          "Sim (>60cm)",
+          "Rasa (<60cm)",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Iluminação natural?",
+        "opcoes": [
+          "Excelente",
+          "Boa",
+          "Suficiente",
+          "Insuficiente",
+          "Má"
+        ]
+      },
+      {
+        "pergunta": "Orientação solar predominante?",
+        "opcoes": [
+          "Norte",
+          "Sul",
+          "Este",
+          "Oeste",
+          "Variável"
+        ]
+      },
+      {
+        "pergunta": "Tipo de janelas?",
+        "opcoes": [
+          "Oscilobatente",
+          "Batente",
+          "Correr",
+          "Guilhotina",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Vidros duplos?",
+        "opcoes": [
+          "Sim, todos",
+          "Alguns",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Estores/persiana exterior?",
+        "opcoes": [
+          "Elétricos",
+          "Manuais",
+          "Sem estores",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Cortinados interiores?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Black-out disponível?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Tomadas suficientes?",
+        "opcoes": [
+          "Sim",
+          "Insuficientes"
+        ]
+      },
+      {
+        "pergunta": "Tomadas junto à cama?",
+        "opcoes": [
+          "Sim, ambos lados",
+          "Um lado",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Pontos de iluminação?",
+        "opcoes": [
+          "Teto",
+          "Parede",
+          "Cabeceira",
+          "Múltiplos"
+        ]
+      },
+      {
+        "pergunta": "Interruptores cabeceira?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Pontos TV/dados?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Aquecimento/AC?",
+        "opcoes": [
+          "Radiador",
+          "AC",
+          "Piso radiante",
+          "Não",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Varanda/acesso exterior?",
+        "opcoes": [
+          "Todos",
+          "Alguns",
+          "Quarto principal",
+          "Nenhum"
+        ]
+      },
+      {
+        "pergunta": "Configuração salas?",
+        "opcoes": [
+          "Sala única",
+          "Estar+Jantar",
+          "Open space cozinha",
+          "2+ Salas"
+        ]
+      },
+      {
+        "pergunta": "Área total salas (m²)?",
+        "opcoes": [
+          "[Valor numérico]"
+        ]
+      },
+      {
+        "pergunta": "Pé-direito salas?",
+        "opcoes": [
+          "Alto (>3m)",
+          "Normal (2.6-3m)",
+          "Duplo pé-direito"
+        ]
+      },
+      {
+        "pergunta": "Estado geral salas?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Aceitável",
+          "Necessita renovação"
+        ]
+      },
+      {
+        "pergunta": "Pavimento salas?",
+        "opcoes": [
+          "Madeira",
+          "Flutuante",
+          "Cerâmica",
+          "Mármore",
+          "Vinílico",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Estado pavimento salas?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Desgaste",
+          "Riscos",
+          "Manchas",
+          "Desnível"
+        ]
+      },
+      {
+        "pergunta": "Paredes salas?",
+        "opcoes": [
+          "Pintura",
+          "Papel parede",
+          "Pedra",
+          "Madeira",
+          "Gesso",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Estado paredes salas?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Manchas",
+          "Fissuras",
+          "Humidade"
+        ]
+      },
+      {
+        "pergunta": "Teto salas?",
+        "opcoes": [
+          "Reboco",
+          "Gesso",
+          "Teto falso",
+          "Madeira",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Estado teto salas?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Manchas",
+          "Fissuras"
+        ]
+      },
+      {
+        "pergunta": "Rodapés salas?",
+        "opcoes": [
+          "Presente",
+          "Deteriorado",
+          "Ausente"
+        ]
+      },
+      {
+        "pergunta": "Elementos decorativos?",
+        "opcoes": [
+          "Sancas",
+          "Molduras",
+          "Estuques",
+          "Nenhum",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Iluminação natural?",
+        "opcoes": [
+          "Excelente",
+          "Boa",
+          "Suficiente",
+          "Insuficiente"
+        ]
+      },
+      {
+        "pergunta": "Número de janelas/portas luz?",
+        "opcoes": [
+          "1",
+          "2",
+          "3",
+          "4+"
+        ]
+      },
+      {
+        "pergunta": "Orientação solar?",
+        "opcoes": [
+          "Norte",
+          "Sul",
+          "Este",
+          "Oeste",
+          "Múltipla"
+        ]
+      },
+      {
+        "pergunta": "Pé-direito duplo/clarabóia?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Iluminação artificial?",
+        "opcoes": [
+          "Central",
+          "Spots",
+          "Apliques",
+          "Trilho",
+          "Mista"
+        ]
+      },
+      {
+        "pergunta": "Dimmer/regulação?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Lareira?",
+        "opcoes": [
+          "Sim, lenha funcional",
+          "Sim, gás",
+          "Sim, elétrica",
+          "Sim, decorativa",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Recuperador de calor?",
+        "opcoes": [
+          "Sim, funcional",
+          "Sim, não funcional",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Chaminé/conduta?",
+        "opcoes": [
+          "Sim, adequada",
+          "Entupida",
+          "Não",
+          "N",
+          "A"
+        ]
+      },
+      {
+        "pergunta": "Varanda/terraço acesso?",
+        "opcoes": [
+          "Sim, grande",
+          "Sim, pequena",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Porta/janela grande exterior?",
+        "opcoes": [
+          "Sim, correr",
+          "Sim, batente",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Biblioteca/estante embutida?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Zona de refeições?",
+        "opcoes": [
+          "Sim, separada",
+          "Integrada",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Escritório/zona trabalho?",
+        "opcoes": [
+          "Sim, sala dedicada",
+          "Área integrada",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Pontos TV?",
+        "opcoes": [
+          "1",
+          "2",
+          "3+",
+          "Nenhum"
+        ]
+      },
+      {
+        "pergunta": "Pontos dados/fibra?",
+        "opcoes": [
+          "Múltiplos",
+          "Alguns",
+          "Poucos"
+        ]
+      },
+      {
+        "pergunta": "Tomadas suficientes?",
+        "opcoes": [
+          "Sim",
+          "Insuficientes"
+        ]
+      },
+      {
+        "pergunta": "Aquecimento?",
+        "opcoes": [
+          "Central",
+          "Radiadores",
+          "AC",
+          "Piso radiante",
+          "Lareira",
+          "Não",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Ar condicionado?",
+        "opcoes": [
+          "Sim, múltiplos",
+          "Sim, 1 unidade",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Som ambiente/colunas embutidas?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Domótica/automação?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Hall de entrada?",
+        "opcoes": [
+          "Amplo",
+          "Médio",
+          "Pequeno",
+          "Direto sala"
+        ]
+      },
+      {
+        "pergunta": "Corredor(es)?",
+        "opcoes": [
+          "Amplo",
+          "Adequado",
+          "Estreito",
+          "Inexistente"
+        ]
+      },
+      {
+        "pergunta": "Pavimento circulação?",
+        "opcoes": [
+          "Igual divisões",
+          "Diferente"
+        ]
+      },
+      {
+        "pergunta": "Estado pavimento circulação?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Desgaste",
+          "Danos"
+        ]
+      },
+      {
+        "pergunta": "Iluminação circulação?",
+        "opcoes": [
+          "Natural",
+          "Artificial",
+          "Ambas",
+          "Insuficiente"
+        ]
+      },
+      {
+        "pergunta": "Arrumação/armários corredor?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Número portas interiores?",
+        "opcoes": [
+          "[Valor numérico]"
+        ]
+      },
+      {
+        "pergunta": "Tipo de portas?",
+        "opcoes": [
+          "Madeira maciça",
+          "Madeira oca",
+          "Vidro",
+          "Correr",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Estado das portas?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Desgaste",
+          "Danos",
+          "Não fecham"
+        ]
+      },
+      {
+        "pergunta": "Altura das portas?",
+        "opcoes": [
+          "2.10m+",
+          "2.00m",
+          "<2.00m"
+        ]
+      },
+      {
+        "pergunta": "Puxadores/fechaduras?",
+        "opcoes": [
+          "Bom estado",
+          "Oxidados",
+          "Avariados"
+        ]
+      },
+      {
+        "pergunta": "Cave/arrecadação?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Sótão/águas furtadas?",
+        "opcoes": [
+          "Sim, habitável",
+          "Sim, arrumos",
+          "Não",
+          "Não acessível"
+        ]
+      },
+      {
+        "pergunta": "Lavandaria?",
+        "opcoes": [
+          "Sim, interior",
+          "Sim, varanda",
+          "Área integrada",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Máquina lavar roupa?",
+        "opcoes": [
+          "Sim, instalação própria",
+          "Espaço preparado",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Estado das portas interiores?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Desalinhadas",
+          "Danificadas"
+        ]
+      },
+      {
+        "pergunta": "Fechaduras e puxadores funcionais?",
+        "opcoes": [
+          "Sim, todos",
+          "Alguns com problemas",
+          "Vários danificados"
+        ]
+      },
+      {
+        "pergunta": "Funcionamento das janelas?",
+        "opcoes": [
+          "Todas funcionam bem",
+          "Algumas difíceis",
+          "Várias presas"
+        ]
+      },
+      {
+        "pergunta": "Estado dos estores/persianas?",
+        "opcoes": [
+          "Bom",
+          "Alguns avariados",
+          "Vários avariados",
+          "Inexistentes"
+        ]
+      },
+      {
+        "pergunta": "Isolamento acústico adequado?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Razoável",
+          "Insuficiente"
+        ]
+      },
+      {
+        "pergunta": "Roupeiros embutidos?",
+        "opcoes": [
+          "Sim, todos os quartos",
+          "Alguns quartos",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Estado dos roupeiros?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Portas desalinhadas",
+          "Danificados",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Ar condicionado nos quartos?",
+        "opcoes": [
+          "Sim, todos",
+          "Alguns",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Pontos de iluminação adequados?",
+        "opcoes": [
+          "Sim",
+          "Insuficientes",
+          "Mal distribuídos"
+        ]
+      },
+      {
+        "pergunta": "Número de tomadas por divisão?",
+        "opcoes": [
+          "Adequado",
+          "Insuficiente",
+          "Uso de extensões necessário"
+        ]
+      }
+    ]
+  },
+  {
+    "secao": "5. Comercial",
+    "campos": [
+      {
+        "pergunta": "Tipo de espaço comercial?",
+        "opcoes": [
+          "Loja",
+          "Escritório",
+          "Restaurante",
+          "Armazém",
+          "Industrial",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Área total do espaço (m²)?",
+        "opcoes": [
+          "[Valor numérico]"
+        ]
+      },
+      {
+        "pergunta": "Número de pisos?",
+        "opcoes": [
+          "1",
+          "2",
+          "3+",
+          "Cave",
+          "Sótão"
+        ]
+      },
+      {
+        "pergunta": "Espaço atualmente ocupado?",
+        "opcoes": [
+          "Sim, em funcionamento",
+          "Sim, parcial",
+          "Vazio",
+          "Em obras"
+        ]
+      },
+      {
+        "pergunta": "Licença de funcionamento válida?",
+        "opcoes": [
+          "Sim",
+          "Expirada",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Acesso para mobilidade reduzida?",
+        "opcoes": [
+          "Sim, conforme",
+          "Parcial",
+          "Não",
+          "Rampa necessária"
+        ]
+      },
+      {
+        "pergunta": "Entrada principal adequada?",
+        "opcoes": [
+          "Excelente",
+          "Boa",
+          "Estreita",
+          "Inadequada"
+        ]
+      },
+      {
+        "pergunta": "Sinalização exterior?",
+        "opcoes": [
+          "Presente e adequada",
+          "Insuficiente",
+          "Ausente",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Estacionamento disponível?",
+        "opcoes": [
+          "Próprio",
+          "Público próximo",
+          "Limitado",
+          "Nenhum"
+        ]
+      },
+      {
+        "pergunta": "Acesso para carga/descarga?",
+        "opcoes": [
+          "Excelente",
+          "Adequado",
+          "Difícil",
+          "Inexistente",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Estado geral da área de vendas/atendimento?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Necessita renovação",
+          "Crítico"
+        ]
+      },
+      {
+        "pergunta": "Pé direito adequado?",
+        "opcoes": [
+          "Alto (>3m)",
+          "Normal (2.7-3m)",
+          "Baixo (<2.7m)"
+        ]
+      },
+      {
+        "pergunta": "Iluminação adequada?",
+        "opcoes": [
+          "Excelente",
+          "Boa",
+          "Insuficiente",
+          "Necessita melhoria"
+        ]
+      },
+      {
+        "pergunta": "Montras/vitrines (se aplicável)?",
+        "opcoes": [
+          "Sim, bom estado",
+          "Sim, necessita atualização",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Layout funcional?",
+        "opcoes": [
+          "Sim",
+          "Aceitável",
+          "Necessita reconfiguração"
+        ]
+      },
+      {
+        "pergunta": "Sistema de climatização adequado?",
+        "opcoes": [
+          "Sim, central",
+          "Splits suficientes",
+          "Insuficiente",
+          "Não existe"
+        ]
+      },
+      {
+        "pergunta": "Controlo de temperatura por zonas?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Parcial"
+        ]
+      },
+      {
+        "pergunta": "Ventilação mecânica?",
+        "opcoes": [
+          "Sim, adequada",
+          "Sim, insuficiente",
+          "Apenas natural",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Extração de ar (se cozinha)?",
+        "opcoes": [
+          "Sim, conforme",
+          "Insuficiente",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Capacidade elétrica para uso comercial?",
+        "opcoes": [
+          "Adequada",
+          "Suficiente",
+          "Insuficiente",
+          "Necessita upgrade"
+        ]
+      },
+      {
+        "pergunta": "Trifásico disponível?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Não necessário"
+        ]
+      },
+      {
+        "pergunta": "Tomadas suficientes na área de trabalho?",
+        "opcoes": [
+          "Sim",
+          "Insuficientes",
+          "Uso de extensões"
+        ]
+      },
+      {
+        "pergunta": "Iluminação comercial adequada?",
+        "opcoes": [
+          "LED moderno",
+          "Fluorescente adequado",
+          "Insuficiente",
+          "Antiquado"
+        ]
+      },
+      {
+        "pergunta": "Sistema de som/áudio instalado?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "WCs para clientes?",
+        "opcoes": [
+          "Sim, adequados",
+          "Sim, básicos",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "WCs para funcionários?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Partilhados com clientes"
+        ]
+      },
+      {
+        "pergunta": "WC adaptado (mobilidade reduzida)?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Necessário conforme legislação"
+        ]
+      },
+      {
+        "pergunta": "Estado das instalações sanitárias?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Necessita renovação",
+          "Inadequado"
+        ]
+      },
+      {
+        "pergunta": "Copa/cozinha para funcionários?",
+        "opcoes": [
+          "Sim, equipada",
+          "Sim, básica",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Área de armazenamento/stock?",
+        "opcoes": [
+          "Adequada",
+          "Suficiente",
+          "Insuficiente",
+          "Não existe"
+        ]
+      },
+      {
+        "pergunta": "Vestiário para funcionários?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Sala de reuniões/escritório?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Área partilhada"
+        ]
+      },
+      {
+        "pergunta": "Sistema de alarme comercial?",
+        "opcoes": [
+          "Sim, monitorizado",
+          "Sim, autónomo",
+          "Não",
+          "Básico"
+        ]
+      },
+      {
+        "pergunta": "Videovigilância instalada?",
+        "opcoes": [
+          "Sim, completa",
+          "Sim, básica",
+          "Não",
+          "Necessário instalar"
+        ]
+      },
+      {
+        "pergunta": "Portas de segurança?",
+        "opcoes": [
+          "Sim, adequadas",
+          "Básicas",
+          "Inadequadas",
+          "Necessita reforço"
+        ]
+      },
+      {
+        "pergunta": "Sistema anti-incêndio comercial?",
+        "opcoes": [
+          "Completo (detetores+extintores+boca incêndio)",
+          "Básico",
+          "Insuficiente",
+          "Não conforme"
+        ]
+      },
+      {
+        "pergunta": "Saídas de emergência sinalizadas?",
+        "opcoes": [
+          "Sim, conformes",
+          "Insuficientes",
+          "Bloqueadas",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Iluminação de emergência?",
+        "opcoes": [
+          "Sim, funcional",
+          "Sim, parcial",
+          "Não",
+          "Não testada"
+        ]
+      },
+      {
+        "pergunta": "Infraestrutura de rede/internet?",
+        "opcoes": [
+          "Fibra",
+          "ADSL",
+          "Cabo",
+          "Insuficiente",
+          "Não existe"
+        ]
+      },
+      {
+        "pergunta": "Pontos de rede distribuídos?",
+        "opcoes": [
+          "Sim, adequados",
+          "Alguns",
+          "Não",
+          "Necessário instalar"
+        ]
+      },
+      {
+        "pergunta": "Sistema telefónico?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Necessário instalar"
+        ]
+      },
+      {
+        "pergunta": "Cablagem estruturada?",
+        "opcoes": [
+          "Sim, organizada",
+          "Sim, desorganizada",
+          "Não",
+          "Necessário implementar"
+        ]
+      },
+      {
+        "pergunta": "Visibilidade da rua?",
+        "opcoes": [
+          "Excelente",
+          "Boa",
+          "Razoável",
+          "Limitada"
+        ]
+      },
+      {
+        "pergunta": "Estado da fachada comercial?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Necessita pintura",
+          "Necessita renovação"
+        ]
+      },
+      {
+        "pergunta": "Sinalética/letreiro permitido?",
+        "opcoes": [
+          "Sim",
+          "Regulamentado",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Toldo ou proteção solar?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Licença de utilização comercial?",
+        "opcoes": [
+          "Sim, válida",
+          "Expirada",
+          "Em processo",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Certificado energético?",
+        "opcoes": [
+          "Sim, válido",
+          "Expirado",
+          "Não",
+          "Em processo"
+        ]
+      },
+      {
+        "pergunta": "Conformidade com normas de segurança?",
+        "opcoes": [
+          "Sim",
+          "Parcial",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Seguro comercial ativo?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Alvará de obras/alterações em dia?",
+        "opcoes": [
+          "Sim",
+          "Não aplicável",
+          "Pendente",
+          "Não"
+        ]
+      }
+    ]
+  },
+  {
+    "secao": "6. Segurança",
+    "campos": [
+      {
+        "pergunta": "Sistema de alarme instalado?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Parcial"
+        ]
+      },
+      {
+        "pergunta": "Tipo de sistema de alarme?",
+        "opcoes": [
+          "Central de alarme",
+          "Autónomo",
+          "Monitorizado 24h",
+          "Sem sistema"
+        ]
+      },
+      {
+        "pergunta": "Todos os sensores funcionais?",
+        "opcoes": [
+          "Sim",
+          "Maioria",
+          "Alguns",
+          "Não testados"
+        ]
+      },
+      {
+        "pergunta": "Painel de controlo acessível e funcional?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Com dificuldade"
+        ]
+      },
+      {
+        "pergunta": "Sistema tem backup de bateria?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Detetores de fumo instalados?",
+        "opcoes": [
+          "Sim, todos os pisos",
+          "Alguns pisos",
+          "Não",
+          "Insuficientes"
+        ]
+      },
+      {
+        "pergunta": "Detetores de CO (monóxido carbono)?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Estado e validade dos detetores?",
+        "opcoes": [
+          "Válidos e funcionais",
+          "Expirados",
+          "Não testados",
+          "Danificados"
+        ]
+      },
+      {
+        "pergunta": "Detetores com bateria ou ligados à rede?",
+        "opcoes": [
+          "Rede elétrica",
+          "Bateria",
+          "Misto"
+        ]
+      },
+      {
+        "pergunta": "Localização adequada dos detetores?",
+        "opcoes": [
+          "Conforme",
+          "Insuficiente",
+          "Mal posicionados"
+        ]
+      },
+      {
+        "pergunta": "Extintores presentes na propriedade?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Quantidade de extintores?",
+        "opcoes": [
+          "1",
+          "2",
+          "3+",
+          "Nenhum"
+        ]
+      },
+      {
+        "pergunta": "Extintores dentro da validade?",
+        "opcoes": [
+          "Todos válidos",
+          "Alguns expirados",
+          "Todos expirados",
+          "Não verificado"
+        ]
+      },
+      {
+        "pergunta": "Tipo de extintor adequado?",
+        "opcoes": [
+          "ABC Polivalente",
+          "CO2",
+          "Água",
+          "Pó",
+          "Misto",
+          "Inadequado"
+        ]
+      },
+      {
+        "pergunta": "Localização e sinalização?",
+        "opcoes": [
+          "Visível e sinalizado",
+          "Visível sem sinal",
+          "Difícil acesso",
+          "Não encontrado"
+        ]
+      },
+      {
+        "pergunta": "Iluminação de emergência instalada?",
+        "opcoes": [
+          "Sim, adequada",
+          "Parcial",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Luzes de emergência funcionais?",
+        "opcoes": [
+          "Todas",
+          "Maioria",
+          "Algumas",
+          "Nenhuma",
+          "Não testadas"
+        ]
+      },
+      {
+        "pergunta": "Sinalização de saídas visível?",
+        "opcoes": [
+          "Sim, todas",
+          "Algumas",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Sistema com bateria autónoma?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Saídas de emergência identificadas?",
+        "opcoes": [
+          "Sim, claramente",
+          "Parcialmente",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Todas as saídas desobstruídas?",
+        "opcoes": [
+          "Sim",
+          "Algumas obstruídas",
+          "Bloqueadas"
+        ]
+      },
+      {
+        "pergunta": "Portas de emergência funcionais?",
+        "opcoes": [
+          "Sim, todas",
+          "Algumas presas",
+          "Trancadas",
+          "Danificadas"
+        ]
+      },
+      {
+        "pergunta": "Barras antipânico nas saídas?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Escadas de emergência acessíveis?",
+        "opcoes": [
+          "Sim",
+          "Obstruídas",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Kit de primeiros socorros disponível?",
+        "opcoes": [
+          "Sim, completo",
+          "Sim, incompleto",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Kit dentro da validade?",
+        "opcoes": [
+          "Sim",
+          "Expirado",
+          "Não verificado"
+        ]
+      },
+      {
+        "pergunta": "Localização acessível?",
+        "opcoes": [
+          "Sim",
+          "Difícil acesso",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Proteção em janelas (grades/redes)?",
+        "opcoes": [
+          "Sim, todas",
+          "Algumas",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Portões de segurança em escadas?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Proteção em tomadas elétricas?",
+        "opcoes": [
+          "Sim, todas",
+          "Algumas",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Cantos de móveis protegidos?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Produtos químicos/medicamentos em local seguro?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Parcialmente",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Sistema de videovigilância instalado?",
+        "opcoes": [
+          "Sim, interno e externo",
+          "Só externo",
+          "Só interno",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Câmaras funcionais e gravando?",
+        "opcoes": [
+          "Sim, todas",
+          "Algumas",
+          "Não",
+          "Não verificado"
+        ]
+      },
+      {
+        "pergunta": "Sistema de gravação com armazenamento adequado?",
+        "opcoes": [
+          "Sim, cloud",
+          "Sim, local",
+          "Insuficiente",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Portas com fechaduras de segurança?",
+        "opcoes": [
+          "Sim, todas",
+          "Principal apenas",
+          "Inadequadas",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Janelas com proteção/grades?",
+        "opcoes": [
+          "Sim, térreo",
+          "Sim, todos os pisos",
+          "Não",
+          "Parcial"
+        ]
+      },
+      {
+        "pergunta": "Sensores de movimento externos?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Iluminação com sensor de presença?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Parcial"
+        ]
+      },
+      {
+        "pergunta": "Certificado de segurança contra incêndio?",
+        "opcoes": [
+          "Sim, válido",
+          "Expirado",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Plano de evacuação visível?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Inspeção de segurança recente?",
+        "opcoes": [
+          "Menos 1 ano",
+          "1-2 anos",
+          "Mais 2 anos",
+          "Nunca"
+        ]
+      },
+      {
+        "pergunta": "Manuais de equipamentos disponíveis?",
+        "opcoes": [
+          "Sim, todos",
+          "Alguns",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Contactos de emergência visíveis?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      }
+    ]
+  },
+  {
+    "secao": "10. Condominio",
+    "campos": [
+      {
+        "pergunta": "Condomínio constituído e ativo?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Administrador identificado e contactável?",
+        "opcoes": [
+          "Sim - [Nome",
+          "Contacto]",
+          "Não",
+          "Auto-gestão"
+        ]
+      },
+      {
+        "pergunta": "Taxa mensal de condomínio?",
+        "opcoes": [
+          "[Valor €]",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Situação de pagamento das quotas?",
+        "opcoes": [
+          "Em dia",
+          "Atraso",
+          "Dívida - [Valor]",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Dívidas em aberto do condomínio?",
+        "opcoes": [
+          "Não",
+          "Sim - [Descrição e valor]",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Fundos de reserva existentes?",
+        "opcoes": [
+          "Sim - [Valor €]",
+          "Não",
+          "Insuficientes",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Obras previstas pelo condomínio (tipo, custo, data)?",
+        "opcoes": [
+          "Não",
+          "Sim - [Descrição]",
+          "Em votação"
+        ]
+      },
+      {
+        "pergunta": "Seguros válidos do edifício?",
+        "opcoes": [
+          "Sim - [Seguradora]",
+          "Não",
+          "Expirado",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Relatórios de inspeções comuns (elevadores, incêndio, gás)?",
+        "opcoes": [
+          "Sim, válidos",
+          "Sim, expirados",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Atas de assembleia disponíveis?",
+        "opcoes": [
+          "Sim",
+          "Parcialmente",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Regulamento interno do condomínio disponível?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Não aplicável"
+        ]
+      }
+    ]
+  },
+  {
+    "secao": "11. Legal_Financeiro",
+    "campos": [
+      {
+        "pergunta": "Proprietário atual com título válido?",
+        "opcoes": [
+          "Sim",
+          "Em processo",
+          "Irregular",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Hipotecas ou penhoras ativas?",
+        "opcoes": [
+          "Não",
+          "Sim - [Banco",
+          "Valor]",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Licença de utilização válida?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Expirada",
+          "Não aplicável (anterior a 1951)"
+        ]
+      },
+      {
+        "pergunta": "Certificado energético disponível e válido?",
+        "opcoes": [
+          "Sim, válido",
+          "Sim, expirado",
+          "Não",
+          "Em processo"
+        ]
+      },
+      {
+        "pergunta": "Alvarás e licenças camarárias em dia?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Parcialmente",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Alterações sem licença ou ilegais?",
+        "opcoes": [
+          "Não",
+          "Sim, legalizadas",
+          "Sim, por legalizar",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "IMI (Imposto Municipal sobre Imóveis) pago?",
+        "opcoes": [
+          "Sim, em dia",
+          "Atraso",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Outras taxas e impostos municipais em dia?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Contratos de fornecimento ativos (luz, gás, água)?",
+        "opcoes": [
+          "Sim, todos",
+          "Parcialmente",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Obras previstas pela câmara municipal na zona?",
+        "opcoes": [
+          "Não",
+          "Sim - [Descrição]",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Caderneta predial disponível e atualizada?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desatualizada"
+        ]
+      },
+      {
+        "pergunta": "Certidão permanente do registo predial?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Desconhecido"
+        ]
+      }
+    ]
+  },
+  {
+    "secao": "12. Manutencao_Futuro",
+    "campos": [
+      {
+        "pergunta": "Contratos de manutenção ativos (elevador, AVAC, jardim, etc.)?",
+        "opcoes": [
+          "Sim - [Listagem]",
+          "Parcialmente",
+          "Não"
+        ]
+      },
+      {
+        "pergunta": "Manutenção preventiva programada?",
+        "opcoes": [
+          "Sim, regular",
+          "Ocasional",
+          "Não",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Equipamentos dentro do prazo de manutenção obrigatória?",
+        "opcoes": [
+          "Sim",
+          "Alguns expirados",
+          "Não",
+          "Não aplicável"
+        ]
+      },
+      {
+        "pergunta": "Garantias de equipamentos ainda válidas?",
+        "opcoes": [
+          "Sim - [Quais]",
+          "Não",
+          "Expiradas",
+          "Desconhecido"
+        ]
+      },
+      {
+        "pergunta": "Planos de reabilitação energética?",
+        "opcoes": [
+          "Não",
+          "Sim, planeado",
+          "Sim, em curso",
+          "Concluído recentemente"
+        ]
+      },
+      {
+        "pergunta": "Interesse em painéis solares ou outras melhorias energéticas?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Já instalado",
+          "Em avaliação"
+        ]
+      },
+      {
+        "pergunta": "Plano de segurança e evacuação existente?",
+        "opcoes": [
+          "Sim",
+          "Não",
+          "Não aplicável",
+          "Em desenvolvimento"
+        ]
+      },
+      {
+        "pergunta": "Grandes obras previstas nos próximos 5 anos?",
+        "opcoes": [
+          "Não",
+          "Sim - [Descrição]",
+          "Em estudo"
+        ]
+      },
+      {
+        "pergunta": "Orçamento estimado para manutenção anual?",
+        "opcoes": [
+          "[Valor €]",
+          "Não estimado"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang='pt'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>Formulário Completo</title>
+<link rel='stylesheet' href='style.css'>
+<script src='https://cdn.jsdelivr.net/npm/chart.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/docx/8.3.2/docx.min.js'></script>
+</head>
+<body>
+<h1>Formulário de Inspeção</h1>
+<input type='text' id='searchBar' placeholder='Pesquisar pergunta...'>
+<select id='filterSecao'><option value=''>Todas as secções</option></select>
+<div id='formContainer'></div>
+<div id='chartContainer'><canvas id='progressChart'></canvas></div>
+<div>
+<button onclick='exportarJSON()'>Exportar JSON</button>
+<button onclick='exportarPDF()'>Exportar PDF</button>
+<button onclick='exportarWord()'>Exportar Word</button>
+</div>
+<script src='script.js'></script>
+</body>
+</html>
