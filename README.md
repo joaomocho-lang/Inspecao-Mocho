@@ -1,7 +1,7 @@
 # Formulário Completo
 
 Este projeto inclui:
-- Formulário dinâmico com JSON.
+- Formulário dinâmico carregado de JSON.
 - Exportação para JSON, PDF e Word (com todas as respostas e fotos).
 - Captura de fotos via input (accept="image/*" capture="camera").
 
@@ -9,7 +9,7 @@ Este projeto inclui:
 1. Descompacte o ZIP.
 2. No Terminal:
    ```bash
-   cd ~/Transferências/site_final_v3
+   cd ~/Transferências/site_final_v4
    python3 -m http.server 8000
    ```
 3. Abra http://localhost:8000
@@ -26,7 +26,7 @@ Este projeto inclui:
 4. Acesse: https://<usuario>.github.io/<repositorio>/
 
 ## O que foi alterado
+- Perguntas restauradas do JSON.
 - Botões de exportação aparecem sempre no final.
 - Função exportarWord inclui todas as respostas e fotos.
 - Inputs permitem captura de fotos.
-- Instruções para teste no telemóvel via IP.
