@@ -32,3 +32,22 @@ async function exportarWord(){
   a.download='inspecao.docx';
   a.click();
 }
+
+
+// Mostrar botões sempre no final do formulário
+function renderForm(filtroSecao='', pesquisa=''){
+  const c=document.getElementById('formContainer');
+  c.innerHTML='';
+  perguntas.forEach(secao=>{
+    if(filtroSecao && secao.secao!==filtroSecao)return;
+    // Renderiza perguntas
+    secao.perguntas.forEach(p=>{
+      const div=document.createElement('div');
+      div.className='section';
+      div.innerHTML=`<label>${p}</label><select data-pergunta='${p}'><option value=''>Selecione</option><option>OK</option><option>NOK</option></select><input type='file' accept='image/*' capture='camera'>`;
+      c.appendChild(div);
+    });
+  });
+  atualizarGrafico();
+  mostrarExportacoes();
+}

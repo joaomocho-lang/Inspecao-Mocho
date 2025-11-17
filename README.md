@@ -9,7 +9,7 @@ Este projeto inclui:
 1. Descompacte o ZIP.
 2. No Terminal:
    ```bash
-   cd ~/Transferências/site_final
+   cd ~/Transferências/site_final_v2
    python3 -m http.server 8000
    ```
 3. Abra http://localhost:8000
@@ -21,6 +21,6 @@ Este projeto inclui:
 4. Acesse: https://<usuario>.github.io/<repositorio>/
 
 ## O que foi alterado
-- Botões de exportação só aparecem no último separador.
+- Botões de exportação aparecem sempre no final.
 - Função exportarWord inclui todas as respostas e fotos.
 - Inputs permitem captura de fotos.
