@@ -1,22 +1,22 @@
-# Site Final Multi-Páginas com Relatório Profissional
+# Formulário Completo Final com PDF Corrigido
 
-## Funcionalidades
-- Página inicial para dados do cliente, propriedade, inspeção e inspetor.
-- Formulário dinâmico com todas as secções.
-- Exportação completa:
-  - **PDF** com layout profissional, logotipo, cores por secção e separadores.
-  - **Word** com dados e respostas.
-  - **JSON** estruturado.
-- Persistência de dados entre páginas.
+Alterações:
+- Botões de exportação (JSON, PDF, Word) aparecem apenas no final do formulário.
+- Exportação para JSON e Word inclui todas as secções e fotos.
+- Exportação para PDF agora suporta múltiplas páginas e inclui imagens.
+- Inputs permitem captura de fotos (accept="image/*" capture="camera").
 
-## Como usar
-1. Abra `pagina_inicial.html` e preencha os dados.
-2. Clique em **Iniciar Inspeção** para ir ao formulário.
-3. Complete as respostas e adicione fotos.
-4. Use os botões para exportar.
+## Como testar localmente
+1. Descompacte o ZIP.
+2. No Terminal:
+   ```bash
+   cd ~/Transferências/site_github_pages_pdf_final
+   python3 -m http.server 8000
+   ```
+3. Abra http://localhost:8000
 
 ## Publicar no GitHub Pages
-1. Crie um repositório público.
-2. Faça upload de todos os ficheiros.
-3. Vá a **Settings → Pages**, escolha branch `main` e pasta `/root`.
-4. Aceda ao link gerado.
+1. Crie repositório público.
+2. Faça upload dos ficheiros.
+3. Em Settings → Pages, selecione branch `main` e pasta `/root`.
+4. Acesse: https://<usuario>.github.io/<repositorio>/
