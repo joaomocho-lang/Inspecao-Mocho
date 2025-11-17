@@ -4,6 +4,24 @@ function mostrarExportacoes(){
   document.getElementById('exportButtons').style.display='block';
 }
 
+function exportarJSON(){
+  const respostas={};
+  document.querySelectorAll('select').forEach(s=>{
+    respostas[s.dataset.pergunta]=s.value||'';
+  });
+  document.querySelectorAll('input[type="file"]').forEach(f=>{
+    if(f.files[0]){
+      respostas[`Foto_${f.previousSibling.textContent}`]=f.files[0].name;
+    }
+  });
+  const blob=new Blob([JSON.stringify(respostas,null,2)],{type:'application/json'});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a');
+  a.href=url;
+  a.download='inspecao.json';
+  a.click();
+}
+
 async function exportarWord(){
   const { Document, Packer, Paragraph, TextRun } = docx;
   const doc = new Document();
@@ -34,9 +52,9 @@ async function exportarWord(){
 }
 
 
-// Mostrar botões no final
 const originalRenderForm = renderForm;
 renderForm = function(filtroSecao='', pesquisa=''){
   originalRenderForm(filtroSecao,pesquisa);
+  document.querySelectorAll('input[type="file"]').forEach(inp=>{inp.accept='image/*';inp.capture='camera';});
   mostrarExportacoes();
 }

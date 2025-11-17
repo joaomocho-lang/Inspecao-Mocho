@@ -1,15 +1,15 @@
-# Formulário Completo Modificado
+# Formulário Completo Final
 
 Alterações:
 - Botões de exportação (JSON, PDF, Word) aparecem apenas no final do formulário.
-- Exportação para Word inclui todas as secções e fotos.
+- Exportação para JSON e Word inclui todas as secções e fotos.
 - Inputs permitem captura de fotos (accept="image/*" capture="camera").
 
 ## Como testar localmente
 1. Descompacte o ZIP.
 2. No Terminal:
    ```bash
-   cd ~/Transferências/site_github_pages_modificado
+   cd ~/Transferências/site_github_pages_final
    python3 -m http.server 8000
    ```
 3. Abra http://localhost:8000
