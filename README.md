@@ -1,16 +1,26 @@
 # Formulário Completo
 
-Este projeto é um site interativo para inspeções, com funcionalidades:
-- Renderização dinâmica do formulário a partir de JSON.
-- Exportação para **JSON**, **PDF** e **Word**.
-- Gráfico de progresso com Chart.js.
+Este projeto inclui:
+- Formulário dinâmico com JSON.
+- Exportação para JSON, PDF e Word (com todas as respostas e fotos).
+- Captura de fotos via input (accept="image/*" capture="camera").
+
+## Como testar localmente
+1. Descompacte o ZIP.
+2. No Terminal:
+   ```bash
+   cd ~/Transferências/site_final
+   python3 -m http.server 8000
+   ```
+3. Abra http://localhost:8000
 
 ## Publicar no GitHub Pages
-1. Crie um repositório público no GitHub.
-2. Faça upload destes ficheiros:
-   - index.html
-   - style.css
-   - script.js
-   - formulario_completo.json
-3. Vá em **Settings → Pages**, selecione a branch `main` e a pasta `/root`.
-4. Acesse seu site em: `https://<usuario>.github.io/<repositorio>/`
+1. Crie repositório público.
+2. Faça upload dos ficheiros.
+3. Em Settings → Pages, selecione branch `main` e pasta `/root`.
+4. Acesse: https://<usuario>.github.io/<repositorio>/
+
+## O que foi alterado
+- Botões de exportação só aparecem no último separador.
+- Função exportarWord inclui todas as respostas e fotos.
+- Inputs permitem captura de fotos.
